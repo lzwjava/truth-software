@@ -215,11 +215,80 @@
     "汇丰银行 HSBC（香港 / 全球）": "HSBC Bank (Hong Kong / Global)",
     "参与移动支付与企业财务系统的后端建设，覆盖支付、账务处理与财务数据流程，熟悉金融级发布与运维流程。": "Back-end systems for mobile payments and corporate finance: payment, accounting, and financial data flows, with bank-grade release and operations practices.",
     "支付 / 账务 / 财务系统": "Payments / Accounting / Finance Systems",
-    "Java / Spring / 云原生": "Java / Spring / Cloud-Native"
+    "Java / Spring / 云原生": "Java / Spring / Cloud-Native",
+
+    // Portfolio page + case sub-pages
+    "首页": "Home",
+    "案例作品集": "Portfolio",
+    "每个项目都是真实交付，以下为各项目实际界面截图。 点击任意案例查看完整详情与多张界面预览。": "Every project below was truly delivered \u2014 these are the actual screens. Click any case for the full story and multiple screen previews.",
+    "平台": "Platform",
+    "合作方": "Partner",
+    "查看案例 →": "View Case →",
+    "查看全部案例作品集 →": "View the full portfolio →",
+    "界面预览": "Screens",
+    "小程序、Web": "Mini Program, Web",
+    "小程序、H5": "Mini Program, H5",
+    "面包屑": "Breadcrumbs",
+    "上一个 / 下一个案例": "Previous / Next case",
+    "北京粉笔蓝天科技有限公司": "Beijing Fenbi Lantian Technology Co., Ltd.",
+    "三耶（北京）科技有限公司": "Sanye (Beijing) Technology Co., Ltd.",
+    "北京大叶互生文化传媒有限责任公司": "Beijing Daye Husheng Culture Media Co., Ltd.",
+    "北京旷智信息科技有限公司": "Beijing Kuangzhi Information Technology Co., Ltd.",
+    "千汇邦（北京）科技有限公司": "Qianhuibang (Beijing) Technology Co., Ltd.",
+
+    // Portfolio covers
+    "拼单 · 砍价 · 挖矿": "Group-buy · price-cut · mining",
+    "律师接单": "Legal marketplace",
+    "背单词利器": "Vocabulary booster",
+    "餐厅包厢预订": "Restaurant booking",
+    "运动内容社区": "Sports community",
+    "拼课裂变": "Course group-buy",
+    "装修定制": "Renovation service",
+    "百万景区大数据": "Tourism big data",
+    "数字资产挖矿": "Crypto mining",
+    "互动学习游戏": "Learning games",
+    "儿童英语启蒙": "Kids English",
+
+    // Portfolio / case one-liners
+    "电商平台 · 拼单 / 砍价 / 抽奖 / 挖矿": "E-commerce · group-buy / price-cut / lottery / mining",
+    "律师接单平台": "Find a lawyer, fast",
+    "小程序 · 背单词利器": "Mini Program · vocabulary booster",
+    "小程序 · 餐厅包厢预订": "Mini Program · private-room booking",
+    "小程序 · 运动内容社区": "Mini Program · sports community",
+    "小程序 · 课程拼团裂变": "Mini Program · course group-buying",
+    "小程序 + Web · 装修定制服务": "Mini Program + Web · renovation service",
+    "Web · 全国百万景区大数据": "Web · big data on millions of attractions",
+    "小程序 + H5 · 数字资产挖矿": "Mini Program + H5 · digital-asset mining",
+    "Web 互动学习游戏 · 3 款": "Web learning games · 3 titles",
+    "App · 儿童英语启蒙游戏": "App · kids English learning",
+
+    // New landing-page card
+    "粉笔网 · 游戏系列": "Fenbi · Game Series",
+    "为教育科技公司开发的互动学习游戏系列（3 款）：超市主题、边玩边学。": "A series of interactive learning games (3 titles) for an ed-tech company \u2014 supermarket-themed, learning through play.",
+    "摘自《平方根科技案例集》—— 每个项目均标注角色与周期。点击封面可查看完整案例界面。": "From the SquareRoot Tech case book \u2014 each project lists its role and timeline. Click a cover for full screens.",
+
+    // Case-page descriptions
+    "电商 App，含拼单、砍价、签到、抽奖、挖矿等营销玩法，覆盖 iOS / Android 双端。包含完整的高保真设计稿与首页、发现、购物、我的等核心界面。": "An e-commerce app with group-buying, price-cut, check-in, lottery and mining mechanics on iOS & Android \u2014 hi-fi screens plus the home, discover, shopping and profile views.",
+    "快速找律师、律师快速接单的撮合平台，含律师/用户端页面、认证流程与订单争议流程设计。": "A lawyer-matchmaking platform: find a lawyer fast, lawyers take cases fast \u2014 covering user & lawyer screens, verification, and order-dispute flows.",
+    "背单词小程序：四级 / 六级 / 考研词库，支持制定学习计划、选择词表、学习模式、挑战模式与学习达成分享。": "A vocabulary mini-program with CET-4 / CET-6 / postgraduate word lists, learning plans, word-list selection, study modes, challenge mode and shareable progress.",
+    "餐厅预订小程序：分类筛选、包厢详情、提交订单、订单列表与订单状态跟踪，信息齐全。": "A restaurant & private-room booking mini-program: category filtering, room detail, order submission, order list and status tracking.",
+    "分享与运动有关的一切的内容社区：主页动态、专辑、标签、VOTE 投票、精选活动与个人中心。另含「几秒运动」主题活动页。": "A content community sharing everything about exercise: home feed, albums, tags, VOTE polls, featured events and profiles \u2014 plus the JiMiao Sports campaign page.",
+    "邀请好友成团、0 元拼课的课程分销裂变小程序，包含拼团页与分享页。": "A course-distribution referral mini-program: invite friends to form a group and get classes for free, with group-buying and sharing screens.",
+    "装修定制平台：找装修与地图模式、装修详情与进度追踪、设计师 / 公司详情、施工工艺、预约服务、邀请好友红包活动与装修订单管理。": "Custom renovation platform: find a contractor (with map mode), renovation details and progress tracking, designer & company profiles, craftsmanship, appointment booking, red-packet referrals and order management.",
+    "汇集全国百万景区数据的旅游大数据平台：目的地搜索、单独目的地页、对比、评论、数据服务购买与大屏可视化展示。": "A tourism big-data platform aggregating data on a million destinations: search, destination pages, comparison, reviews, data-service purchases and big-screen display.",
+    "数字资产挖矿与交易辅助工具：绑定手机号、激活额度、扫码入群、分享海报获客、算力排行榜等完整获客链路。": "A digital-asset mining & trading assistant: phone binding, quota activation, QR group invite, share-poster acquisition, and a mining leaderboard.",
+    "为教育科技公司开发的互动学习游戏系列：以「超市」为主题的选购、结算、崩蛋等玩法，把背单词变成游戏。": "A series of interactive learning games for an ed-tech company \u2014 supermarket-themed shopping, checkout and egg-breaking mechanics that turn vocabulary learning into play.",
+    "儿童启蒙英语学习游戏，覆盖 iOS / Android 双端。": "English-learning games for children, built for both iOS and Android."
   };
 
   const EN_TITLE = '智维软件 — Software Development & Technical Consulting';
-  const EN_META = '智维软件 provides product design, iOS/Android app, WeChat mini-program, web and H5 development consulting. An AI-native team consuming 1B+ tokens per day; 40+ delivered projects for clients including YuantiKu, Fenbi, and Jiangsu TV, plus financial project experience with DBS and HSBC.';
+  // Pages may provide a page-specific English title / description via these
+  // hidden elements (used by portfolio.html and cases/*.html).
+  const TITLE_EN_EL = document.getElementById('i18nTitleEn');
+  const META_EN_EL = document.getElementById('i18nMetaEn');
+  const EN_META = META_EN_EL && META_EN_EL.textContent.trim()
+    ? META_EN_EL.textContent.trim()
+    : '智维软件 provides product design, iOS/Android app, WeChat mini-program, web and H5 development consulting. An AI-native team consuming 1B+ tokens per day; 40+ delivered projects for clients including YuantiKu, Fenbi, and Jiangsu TV, plus financial project experience with DBS and HSBC.';
 
   // Longest key first so full sentences win over short labels like 开发.
   const KEYS = Object.keys(EN).sort((a, b) => b.length - a.length);
@@ -265,8 +334,6 @@
     const en = lang === 'en';
 
     document.documentElement.lang = en ? 'en' : 'zh-CN';
-    document.title = en ? EN_TITLE : zhTitle;
-    if (metaDesc) metaDesc.content = en ? EN_META : zhMeta;
 
     textNodes.forEach(node => {
       const zh = zhText.get(node);
@@ -276,6 +343,14 @@
       const zh = zhAria.get(el);
       el.setAttribute('aria-label', en ? toEnglish(zh) : zh);
     });
+
+    // Title / meta after text-node translation so per-page EN strings win.
+    document.title = en
+      ? (TITLE_EN_EL ? TITLE_EN_EL.textContent.trim() : EN_TITLE)
+      : zhTitle;
+    if (metaDesc) metaDesc.content = en
+      ? (META_EN_EL ? META_EN_EL.textContent.trim() : EN_META)
+      : zhMeta;
 
     if (toggle) {
       toggle.textContent = en ? '中' : 'EN';

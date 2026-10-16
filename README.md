@@ -26,10 +26,28 @@ The site also presents the modern side of the company:
 ## Structure
 
 ```
-index.html   # entire site: markup + small inline script (filter, year)
-style.css    # all styles, mobile-first, no framework
-.nojekyll    # serve raw files on GitHub Pages
+index.html         # landing page: services, AI team, tech stack, works, contact
+portfolio.html     # portfolio gallery: every image-backed case, filterable
+cases/             # one sub-page per case, with a full screenshot gallery
+images/<case>/     # optimized screenshots (cover.jpg + img-NN.jpg per case)
+style.css          # all styles, mobile-first, no framework
+i18n.js            # zh/en dictionary + language toggle (all pages)
+scripts/build_cases.py  # regenerates cases/*.html and portfolio.html from the CASES table
+.nojekyll          # serve raw files on GitHub Pages
 ```
+
+Case screenshots were exported from `/Users/lzwjava/Nutstore Files/平方根公司介绍文档`
+(folders `图/`, `Serveral Project Designs/`, plus the case banners) and resized/compressed
+into `images/`. The case copy is adapted from the `.sketch` case book
+(*平方根项目介绍-1014更新.sketch*) and `平方根科技案例集-最新.pdf`.
+
+To regenerate the generated pages after editing the `CASES` table:
+
+```bash
+python3 scripts/build_cases.py
+```
+
+The generated pages are committed so the site still has zero runtime build steps.
 
 ## Run locally
 
