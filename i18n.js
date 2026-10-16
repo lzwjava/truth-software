@@ -120,6 +120,8 @@
 
     // Clients
     "合作伙伴": "Partners",
+    "猿辅导": "Yuanfudao",
+    "粉笔": "Fenbi",
     "从互联网一线教育公司，到创新团队与传统行业客户。": "From leading internet education companies to innovative startups and traditional-industry clients.",
     "猿题库 / 小猿搜题": "Yuantiku / Xiaoyuan Souti",
     "粉笔（蓝天 / 未来科技）": "Fenbi (Lantian / Future Technology)",

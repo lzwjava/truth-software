@@ -354,6 +354,49 @@ html[lang="en"] .work__meta b::after { content: " "; }
 
 /* ---------- Clients ---------- */
 
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.partner {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 160px;
+}
+
+.partner__logo {
+  width: 160px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.partner__logo img {
+  max-width: 84%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.partner figcaption {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
 .clients {
   list-style: none;
   margin: 0;
