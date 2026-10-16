@@ -136,7 +136,7 @@
 
     // Team
     "核心团队": "Core Team",
-    "约 15 人的开发团队：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "A team of about 15: front-end, back-end, iOS, Android, and mini-program engineers plus UI/UX designers.",
+    "约 5 人的开发团队：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "A team of about 5: front-end, back-end, iOS, Android, and mini-program engineers plus UI/UX designers.",
     "李智维": "Li Zhiwei",
     "创始人 / CEO": "Founder / CEO",
     "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，重度 AI 原生实践者，12 年行业经验。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; heavy AI-native practitioner; 12 years of industry experience.",
@@ -166,6 +166,7 @@
 
     // Navigation additions
     "AI 团队": "AI Team",
+    "AI 服务": "AI Services",
     "技术栈": "Tech Stack",
     "金融": "Finance",
 
@@ -183,6 +184,28 @@
     "银行交易、支付与账务系统的开发经验，来自星展 DBS、汇丰 HSBC 等金融项目，重视质量、安全与合规。": "Hands-on experience with banking transaction, payment, and accounting systems from DBS, HSBC, and other financial projects — quality, security, and compliance first.",
     "数据平台与可视化": "Data Platforms & Visualization",
     "数据标注平台、旅游大数据、报表与可视化看板等数据类系统建设。": "Data labeling platforms, tourism big data, reporting, and visualization dashboards.",
+
+    // AI services (置顶) additions
+    "AI 应用与智能体开发": "AI Application & Agent Development",
+    "对话机器人、RAG 知识库、工作流智能体与自动化脚本——把大模型能力接进你的业务系统。": "Chatbots, RAG knowledge bases, workflow agents, and automation scripts — wiring LLM capability into your business systems.",
+    "对话机器人": "Chatbots",
+    "客服、导购、内部门户等场景的智能对话机器人，对接 OpenAI、Claude、DeepSeek、Gemini 等主流模型。": "Intelligent conversational agents for customer service, sales, and internal portals, connected to OpenAI, Claude, DeepSeek, Gemini, and other leading models.",
+    "RAG 知识库": "RAG Knowledge Bases",
+    "基于私有文档与业务数据构建检索增强知识库，让问答引用真实来源、可控可追溯。": "Retrieval-augmented knowledge bases built on private documents and business data, with answers grounded in real, traceable sources.",
+    "工作流智能体与自动化脚本": "Workflow Agents & Automation Scripts",
+    "把重复流程交给智能体与脚本执行，编码、数据处理、运维、报表全链路自动化。": "Hand repetitive workflows to agents and scripts — automating coding, data processing, ops, and reporting end to end.",
+    "个人 AI 工作站部署": "Personal AI Workstation Deployment",
+    "自建 GPU 工作站与推理环境（vLLM、llama.cpp、Ollama），本地化、私有化部署大模型。": "Self-hosted GPU workstations and inference environments (vLLM, llama.cpp, Ollama) for local, private LLM deployment.",
+    "小模型微调 · 训练 · 强化学习": "Small-Model Fine-Tuning · Training · RL",
+    "基于开源模型微调、全量训练与 RLHF / 强化学习，打造适合你业务的专属小模型。": "Fine-tune, train, and apply RLHF / reinforcement learning to open-source models to build small models tailored to your business.",
+    "机器学习 · 深度学习": "Machine Learning · Deep Learning",
+    "从特征工程到模型训练与评估，落地分类、预测、推荐、视觉、NLP 等各类智能应用。": "From feature engineering to model training and evaluation — shipping classification, forecasting, recommendation, vision, and NLP applications.",
+    "数据治理 · 数据脚本": "Data Governance · Data Scripts",
+    "数据清洗、标准化、质量管控与自动化数据脚本，让数据规范、可信、随时可用。": "Data cleaning, standardization, quality control, and automation scripts that keep data well-governed, trustworthy, and ready to use.",
+    "爬虫与数据采集": "Crawling & Data Collection",
+    "定制网页 / 接口爬虫与数据采集管道，稳定高效地获取公开数据并结构化落库。": "Custom web / API crawlers and data collection pipelines that reliably harvest public data into structured storage.",
+    "AI 接入业务系统": "AI Integration into Business Systems",
+    "通过 API、MCP、智能体框架把大模型能力无缝嵌入你现有的业务系统与工作流。": "Embed LLM capability seamlessly into your existing business systems and workflows via APIs, MCP, and agent frameworks.",
 
     // AI-native section
     "AI 原生团队，而不只是「用上 AI」": "An AI-Native Team, Not Just a Team That Uses AI",

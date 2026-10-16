@@ -62,7 +62,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 80px;
+  gap: 16px;
 }
 
 .nav__brand {
@@ -87,7 +88,8 @@ body {
 .nav__links {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 18px;
+  white-space: nowrap;
 }
 
 .nav__links a {
