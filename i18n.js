@@ -10,10 +10,12 @@
   'use strict';
 
   const STORAGE_KEY = 'zhiwei-lang';
-  const BRAND = '智维软件'; // kept as-is in both languages
 
   // ---- English dictionary: exact Chinese source text -> English ---------- //
   const EN = {
+    // Brand — 智维软件 is written as "Zhiwei Software" in English
+    "智维软件": "Zhiwei Software",
+
     // Navigation
     "服务": "Services",
     "案例": "Case Studies",
@@ -26,7 +28,7 @@
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
     "把想法变成": "Turn ideas into",
     "可上线的产品": "shippable products",
-    "智维软件是一支 AI 驱动的软件咨询团队，提供从产品设计、开发到上线运营的整体解决方案。": "智维软件 is an AI-driven software consulting team, delivering end-to-end solutions from product design and development to launch and operations.",
+    "智维软件是一支 AI 驱动的软件咨询团队，提供从产品设计、开发到上线运营的整体解决方案。": "Zhiwei Software is an AI-driven software consulting team, delivering end-to-end solutions from product design and development to launch and operations.",
     "微信小程序、iOS / Android 应用、Web 平台、H5 营销——都有成熟交付经验。": "WeChat mini-programs, iOS / Android apps, web platforms, and H5 campaigns — all with a proven record of delivery.",
     "获取项目报价": "Get a Project Quote",
     "查看案例 ↓": "View Case Studies ↓",
@@ -281,14 +283,14 @@
     "儿童启蒙英语学习游戏，覆盖 iOS / Android 双端。": "English-learning games for children, built for both iOS and Android."
   };
 
-  const EN_TITLE = '智维软件 — Software Development & Technical Consulting';
+  const EN_TITLE = 'Zhiwei Software — Software Development & Technical Consulting';
   // Pages may provide a page-specific English title / description via these
   // hidden elements (used by portfolio.html and cases/*.html).
   const TITLE_EN_EL = document.getElementById('i18nTitleEn');
   const META_EN_EL = document.getElementById('i18nMetaEn');
   const EN_META = META_EN_EL && META_EN_EL.textContent.trim()
     ? META_EN_EL.textContent.trim()
-    : '智维软件 provides product design, iOS/Android app, WeChat mini-program, web and H5 development consulting. An AI-native team consuming 1B+ tokens per day; 40+ delivered projects for clients including YuantiKu, Fenbi, and Jiangsu TV, plus financial project experience with DBS and HSBC.';
+    : 'Zhiwei Software provides product design, iOS/Android app, WeChat mini-program, web and H5 development consulting. An AI-native team consuming 1B+ tokens per day; 40+ delivered projects for clients including YuantiKu, Fenbi, and Jiangsu TV, plus financial project experience with DBS and HSBC.';
 
   // Longest key first so full sentences win over short labels like 开发.
   const KEYS = Object.keys(EN).sort((a, b) => b.length - a.length);
