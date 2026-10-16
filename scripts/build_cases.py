@@ -218,6 +218,7 @@ NAV = """  <header class="nav">
         <a href="{home}">首页</a>
         <a href="{portfolio}"{active_portfolio}>案例</a>
         <a href="mailto:lzwjava@gmail.com" class="nav__cta">联系我们</a>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="切换深色模式">🌙</button>
         <button id="langToggle" class="lang-toggle" type="button">EN</button>
       </nav>
     </div>
@@ -231,6 +232,7 @@ FOOTER = """  <footer class="footer">
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+  <script src="{theme}"></script>
   <script src="{i18n}"></script>
 </body>
 </html>"""
@@ -284,6 +286,15 @@ def case_file(case, prev, nxt, portfolio_relative="../portfolio.html"):
   <title>{case["name"]} — 智维软件案例</title>
   <meta name="description" content="{case["desc"]}">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%B0%3C/text%3E%3C/svg%3E">
+  <script>
+    (function () {{
+      try {{
+        var t = localStorage.getItem('zhiwei-theme');
+        var dark = t === 'dark' || (t !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      }} catch (e) {{ document.documentElement.dataset.theme = 'light'; }}
+    }})();
+  </script>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -326,7 +337,7 @@ def case_file(case, prev, nxt, portfolio_relative="../portfolio.html"):
   <span id="i18nTitleEn" hidden>{case["name"]} — Case Study</span>
   <span id="i18nMetaEn" hidden>{case["desc_en"]}</span>
 
-{FOOTER.format(i18n="../i18n.js")}"""
+{FOOTER.format(i18n="../i18n.js", theme="../theme.js")}"""
 
 
 def portfolio_file():
@@ -361,6 +372,15 @@ def portfolio_file():
   <title>案例作品集 — 智维软件</title>
   <meta name="description" content="智维软件案例作品集：小程序、App、Web 与 H5 项目真实界面截图，含 HomeNet、律享、粉笔万词王、寻厢记、几秒社区、喔喔选装、众誉旅游大数据等交付案例。">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%B0%3C/text%3E%3C/svg%3E">
+  <script>
+    (function () {{
+      try {{
+        var t = localStorage.getItem('zhiwei-theme');
+        var dark = t === 'dark' || (t !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      }} catch (e) {{ document.documentElement.dataset.theme = 'light'; }}
+    }})();
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -417,7 +437,7 @@ def portfolio_file():
   <span id="i18nTitleEn" hidden>Case Studies — Zhiwei Software Portfolio</span>
   <span id="i18nMetaEn" hidden>Smart software consulting portfolio: real screens from delivered mini-programs, apps, and web platforms \u2014 HomeNet, LawShare, Fenbi Word Master, Room Finder, JiMiao Community, WoWo Renovation, Tourism Big Data, and more.</span>
 
-{FOOTER.format(i18n="i18n.js")}"""
+{FOOTER.format(i18n="i18n.js", theme="theme.js")}"""
 
 
 def main():

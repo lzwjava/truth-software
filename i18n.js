@@ -366,6 +366,15 @@
       ? (META_EN_EL ? META_EN_EL.textContent.trim() : EN_META)
       : zhMeta;
 
+    // Keep the theme toggle's aria-label in sync with the active language.
+    const themeBtn = document.getElementById('themeToggle');
+    if (themeBtn) {
+      const dark = document.documentElement.dataset.theme === 'dark';
+      themeBtn.setAttribute('aria-label', en
+        ? (dark ? 'Switch to light mode' : 'Switch to dark mode')
+        : (dark ? '切换浅色模式' : '切换深色模式'));
+    }
+
     if (toggle) {
       toggle.textContent = en ? '中' : 'EN';
       toggle.setAttribute('aria-label', en ? '切换为中文' : 'Switch to English');

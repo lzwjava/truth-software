@@ -128,6 +128,19 @@ body {
   border-color: var(--ink-faint);
 }
 
+.theme-toggle {
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  font-size: 15px;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.theme-toggle:hover { border-color: var(--ink-faint); }
+
 /* ---------- Hero ---------- */
 
 .hero {
@@ -813,6 +826,78 @@ html[lang="en"] .work__meta b::after { content: " "; }
 @media (max-width: 900px) {
   .grid--3 { grid-template-columns: repeat(2, 1fr); }
   .stats { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ---------- Dark mode ---------- */
+
+html[data-theme="dark"] {
+  --ink: #f2f4f7;
+  --ink-soft: #b7bdc8;
+  --ink-faint: #7e8591;
+  --bg: #101218;
+  --bg-alt: #161922;
+  --border: #282d39;
+  --shadow: 0 10px 34px rgba(0, 0, 0, 0.45);
+  color-scheme: dark;
+}
+
+html[data-theme="dark"] .nav {
+  background: rgba(16, 18, 24, 0.88);
+}
+
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .stat,
+html[data-theme="dark"] .filter,
+html[data-theme="dark"] .chip,
+html[data-theme="dark"] .clients li,
+html[data-theme="dark"] .btn--ghost {
+  background: #181b24;
+}
+
+html[data-theme="dark"] .filter { color: var(--ink-soft); }
+
+html[data-theme="dark"] .filter:hover { color: var(--ink); }
+
+html[data-theme="dark"] .nav__cta {
+  background: var(--gradient);
+  color: #fff;
+}
+
+html[data-theme="dark"] .btn--ghost { color: var(--ink); }
+
+html[data-theme="dark"] .pcase__thumb,
+html[data-theme="dark"] .work__thumb {
+  background: linear-gradient(160deg, #1a1e28, #141720);
+}
+
+html[data-theme="dark"] .gallery__item img {
+  border-color: var(--border);
+  background: #fafbfc;
+}
+
+html[data-theme="dark"] .hero {
+  background:
+    radial-gradient(600px 300px at 85% -10%, rgba(139, 92, 246, 0.16), transparent 60%),
+    radial-gradient(500px 260px at 10% 0%, rgba(245, 158, 11, 0.14), transparent 60%);
+}
+
+html[data-theme="dark"] .contact {
+  background:
+    radial-gradient(500px 300px at 90% 110%, rgba(236, 72, 153, 0.14), transparent 60%),
+    radial-gradient(500px 300px at 0% 110%, rgba(139, 92, 246, 0.12), transparent 60%);
+}
+
+html[data-theme="dark"] .finance {
+  background:
+    radial-gradient(520px 300px at 90% 0%, rgba(245, 158, 11, 0.12), transparent 62%),
+    radial-gradient(520px 300px at 0% 100%, rgba(139, 92, 246, 0.10), transparent 62%);
+}
+
+html[data-theme="dark"] .section--dark {
+  background:
+    radial-gradient(620px 320px at 85% 0%, rgba(139, 92, 246, 0.28), transparent 62%),
+    radial-gradient(520px 300px at 5% 100%, rgba(236, 72, 153, 0.20), transparent 62%),
+    #0c0e13;
 }
 
 @media (max-width: 800px) {
