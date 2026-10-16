@@ -15,6 +15,20 @@ import os
 # ---------------------------------------------------------------------------
 CASES = [
     dict(
+        slug="burning-brain",
+        name="燃烧吧大脑",
+        platform="miniapp",
+        tags=["小程序"],
+        role="设计、开发",
+        timeline="3 周",
+        client="江苏卫视《最强大脑》",
+        sub="小程序 · 《最强大脑》官方互动",
+        desc="江苏卫视《最强大脑 · 燃烧吧大脑》官方微信小程序：能力测评、竞技答题与世界排行榜，配合节目播出实现观众同步挑战互动。",
+        desc_en="Official WeChat mini-program for Jiangsu TV's Super Brain: Burning Brain \u2014 capability tests, competitive quizzes, and a global leaderboard that lets viewers challenge along with the show.",
+        cover="最强大脑官方小程序",
+        count=4,
+    ),
+    dict(
         slug="home-net",
         name="HomeNet",
         platform="app",

@@ -246,6 +246,7 @@
     "千汇邦（北京）科技有限公司": "Qianhuibang (Beijing) Technology Co., Ltd.",
 
     // Portfolio covers
+    "最强大脑官方小程序": "Official Super Brain mini-program",
     "拼单 · 砍价 · 挖矿": "Group-buy · price-cut · mining",
     "律师接单": "Legal marketplace",
     "背单词利器": "Vocabulary booster",
@@ -259,6 +260,7 @@
     "儿童英语启蒙": "Kids English",
 
     // Portfolio / case one-liners
+    "小程序 · 《最强大脑》官方互动": "Mini Program · official Super Brain interactivity",
     "电商平台 · 拼单 / 砍价 / 抽奖 / 挖矿": "E-commerce · group-buy / price-cut / lottery / mining",
     "律师接单平台": "Find a lawyer, fast",
     "小程序 · 背单词利器": "Mini Program · vocabulary booster",
@@ -277,6 +279,7 @@
     "摘自《平方根科技案例集》—— 每个项目均标注角色与周期。点击封面可查看完整案例界面。": "From the SquareRoot Tech case book \u2014 each project lists its role and timeline. Click a cover for full screens.",
 
     // Case-page descriptions
+    "江苏卫视《最强大脑 · 燃烧吧大脑》官方微信小程序：能力测评、竞技答题与世界排行榜，配合节目播出实现观众同步挑战互动。": "Official WeChat mini-program for Jiangsu TV's Super Brain: Burning Brain \u2014 capability tests, competitive quizzes, and a global leaderboard that lets viewers challenge along with the show.",
     "电商 App，含拼单、砍价、签到、抽奖、挖矿等营销玩法，覆盖 iOS / Android 双端。包含完整的高保真设计稿与首页、发现、购物、我的等核心界面。": "An e-commerce app with group-buying, price-cut, check-in, lottery and mining mechanics on iOS & Android \u2014 hi-fi screens plus the home, discover, shopping and profile views.",
     "快速找律师、律师快速接单的撮合平台，含律师/用户端页面、认证流程与订单争议流程设计。": "A lawyer-matchmaking platform: find a lawyer fast, lawyers take cases fast \u2014 covering user & lawyer screens, verification, and order-dispute flows.",
     "背单词小程序：四级 / 六级 / 考研词库，支持制定学习计划、选择词表、学习模式、挑战模式与学习达成分享。": "A vocabulary mini-program with CET-4 / CET-6 / postgraduate word lists, learning plans, word-list selection, study modes, challenge mode and shareable progress.",
