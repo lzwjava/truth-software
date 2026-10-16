@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Zhiwei Software — portfolio site styles
+   智维软件 — portfolio site styles
    Clean, dependency-free, mobile-first. Accent palette mirrors the colorful
    circle motif of the original case-book cover (orange / pink / purple).
    ========================================================================== */
@@ -108,6 +108,26 @@ body {
 
 .nav__cta:hover { opacity: 0.85; }
 
+.lang-toggle {
+  padding: 6px 13px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.lang-toggle:hover {
+  color: var(--ink);
+  border-color: var(--ink-faint);
+}
+
 /* ---------- Hero ---------- */
 
 .hero {
@@ -175,7 +195,7 @@ body {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 18px;
   margin-top: 64px;
 }
@@ -329,6 +349,9 @@ body {
   margin-right: 4px;
 }
 
+/* English labels need a word space before their value (e.g. "Role design…") */
+html[lang="en"] .work__meta b::after { content: " "; }
+
 /* ---------- Clients ---------- */
 
 .clients {
@@ -382,6 +405,12 @@ body {
   justify-content: center;
 }
 
+.contact__note {
+  margin-top: 18px;
+  font-size: 13.5px;
+  color: var(--ink-faint);
+}
+
 /* ---------- Footer ---------- */
 
 .footer {
@@ -401,6 +430,105 @@ body {
 
 .footer__inner p { margin: 0; }
 
+/* ---------- AI-native (dark band) ---------- */
+
+.section--dark {
+  background:
+    radial-gradient(620px 320px at 85% 0%, rgba(139, 92, 246, 0.35), transparent 62%),
+    radial-gradient(520px 300px at 5% 100%, rgba(236, 72, 153, 0.25), transparent 62%),
+    #12141a;
+  color: #fff;
+}
+
+.section--dark .section__title { color: #fff; }
+.section--dark .section__subtitle { color: rgba(255, 255, 255, 0.72); }
+
+.section--dark .stats { margin-top: 0; margin-bottom: 40px; }
+
+.section--dark .stat {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: none;
+}
+
+.section--dark .stat__label { color: rgba(255, 255, 255, 0.6); }
+
+.section--dark .card {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.13);
+}
+
+.section--dark .card p { color: rgba(255, 255, 255, 0.72); }
+.section--dark .card:hover { box-shadow: 0 12px 34px rgba(0, 0, 0, 0.35); }
+
+/* ---------- Chips (AI tools + tech stack) ---------- */
+
+.chips-block { margin-top: 40px; }
+
+.chips__label {
+  margin: 0 0 12px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--ink-faint);
+}
+
+.section--dark .chips__label { color: rgba(255, 255, 255, 0.55); }
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.section--dark .chip {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.86);
+}
+
+/* ---------- Tech stack ---------- */
+
+.stack { display: grid; gap: 18px; }
+
+.stack__row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 14px;
+  align-items: start;
+  padding-bottom: 18px;
+  border-bottom: 1px dashed var(--border);
+}
+
+.stack__row:last-child { border-bottom: 0; padding-bottom: 0; }
+
+.stack__label {
+  padding-top: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* ---------- Finance / banking ---------- */
+
+.finance {
+  background:
+    radial-gradient(520px 300px at 90% 0%, rgba(245, 158, 11, 0.13), transparent 62%),
+    radial-gradient(520px 300px at 0% 100%, rgba(139, 92, 246, 0.10), transparent 62%);
+}
+
+.tag--fin { background: rgba(59, 130, 246, 0.12); color: #1d4ed8; }
+
 /* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {
@@ -408,10 +536,15 @@ body {
   .stats { grid-template-columns: repeat(2, 1fr); }
 }
 
+@media (max-width: 800px) {
+  .nav__links a:not(.nav__cta) { display: none; }
+}
+
 @media (max-width: 640px) {
   .grid--3, .grid--2 { grid-template-columns: 1fr; }
   .nav__links a:not(.nav__cta) { display: none; }
   .hero { padding-top: 64px; }
   .section { padding: 60px 0; }
+  .stack__row { grid-template-columns: 1fr; gap: 8px; }
   .footer__inner { flex-direction: column; text-align: center; }
 }
