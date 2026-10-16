@@ -138,7 +138,10 @@
     "李智维": "Li Zhiwei",
     "创始人 / CEO": "Founder / CEO",
     "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，重度 AI 原生实践者，12 年行业经验。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; heavy AI-native practitioner; 12 years of industry experience.",
-    "武华容": "Wu Huarong",
+    "小容": "Xiao Rong",
+    "兼职团队": "Part-time Team",
+    "来自国内大小厂等资深工程师": "Senior engineers from large & small firms across China",
+    "按项目需要弹性加入的外部资深工程师网络：覆盖前后端、客户端、算法与设计，随时为交付团队扩容。": "An elastic network of senior engineers who join per project — covering front-end, back-end, mobile, algorithms and design to scale delivery teams on demand.",
     "前端负责人": "Front-end Lead",
     "负责前端架构与重点项目，服务小猿搜题、BitEDU 等客户，4 年行业经验。": "Leads front-end architecture and key projects for clients such as Xiaoyuan Souti and BitEDU; 4 years of industry experience.",
 
@@ -167,6 +170,7 @@
     // Hero additions
     "软件开发 · 技术咨询 · AI 原生 · 产品外包": "Software Development · Technical Consulting · AI-Native · Product Outsourcing",
     "我们更是一支 AI 原生团队：日均消耗超过 10 亿 tokens，把大模型与智能体真正用进研发流程。": "We are also an AI-native team: over 1 billion tokens consumed every day, with LLMs and agents built deep into our engineering process.",
+    "智维软件的前身是平方根科技——依托于趣智播知识直播分享社区成长起来的软件咨询公司，活跃于 2018 到 2019 年，于 2026 年重新开始运营。": "Zhiwei Software's predecessor was Square Root Technology — a software consulting company that grew out of the QuZhiBo knowledge live-streaming community, active from 2018 to 2019 and relaunched in 2026.",
     "10 亿+": "1B+",
     "日均 AI tokens 消耗": "AI tokens consumed per day",
 
@@ -183,6 +187,9 @@
     "需求分析、架构设计、编码、测试、文档与发布，全流程由 AI 深度参与。": "Requirement analysis, architecture, coding, testing, documentation, and release — every step is deeply AI-assisted.",
     "创始团队在大型银行项目中沉淀出一套可复用的 AI 工作流，如今应用到每一个交付项目中。": "A reusable AI workflow forged on large-scale banking projects, now applied to every engagement we deliver.",
     "定制 AI 智能体": "custom AI agents",
+    "自建 GPU 工作站": "self-built GPU workstation",
+    "小型模型训练": "small models trained",
+    "AI / Agent 笔记": "AI / Agent notes",
     "可复用自动化脚本": "reusable automation scripts",
     "项目知识文档": "project knowledge docs",
     "大模型应用开发": "LLM Application Development",
