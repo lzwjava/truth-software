@@ -173,7 +173,7 @@
     // Hero additions
     "软件开发 · 技术咨询 · AI 原生 · 产品外包": "Software Development · Technical Consulting · AI-Native · Product Outsourcing",
     "我们更是一支 AI 原生团队：日均消耗超过 10 亿 tokens，把大模型与智能体真正用进研发流程。": "We are also an AI-native team: over 1 billion tokens consumed every day, with LLMs and agents built deep into our engineering process.",
-    "智维软件的前身是平方根科技——依托于趣智播知识直播分享社区成长起来的软件咨询公司，活跃于 2018 到 2019 年，于 2026 年重新开始运营。": "Zhiwei Software's predecessor was Square Root Technology — a software consulting company that grew out of the QuZhiBo knowledge live-streaming community, active from 2018 to 2019 and relaunched in 2026.",
+    "智维软件的前身是平方根科技——依托于具有 3 万工程师用户的趣直播知识分享社区成长起来的软件咨询公司，活跃于 2018 到 2019 年，于 2026 年重新开始运营。": "Zhiwei Software's predecessor was Square Root Technology — a software consulting company that grew out of QuZhiBo, a knowledge-sharing live-streaming community with 30,000 engineer users, active from 2018 to 2019 and relaunched in 2026.",
     "10 亿+": "1B+",
     "日均 AI tokens 消耗": "AI tokens consumed per day",
 
