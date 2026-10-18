@@ -57,7 +57,7 @@
 
     // Featured case studies
     "精选案例": "Featured Case Studies",
-    "摘自《平方根科技案例集》—— 每个项目均标注角色与周期。": "Excerpted from the SquareRoot Tech case book — each project lists its role and timeline.",
+    "每个项目均标注角色与周期。": "Each project lists its role and timeline.",
     "全部": "All",
     "小程序": "Mini Programs",
     "按平台筛选案例": "Filter case studies by platform",
@@ -344,7 +344,7 @@
     // New landing-page card
     "粉笔网 · 游戏系列": "Fenbi · Game Series",
     "为教育科技公司开发的互动学习游戏系列（3 款）：超市主题、边玩边学。": "A series of interactive learning games (3 titles) for an ed-tech company \u2014 supermarket-themed, learning through play.",
-    "摘自《平方根科技案例集》—— 每个项目均标注角色与周期。点击封面可查看完整案例界面。": "From the SquareRoot Tech case book \u2014 each project lists its role and timeline. Click a cover for full screens.",
+    "每个项目均标注角色与周期。点击封面可查看完整案例界面。": "Each project lists its role and timeline. Click a cover for full screens.",
     "以上案例来自数年前，大部分已征得客户许可后在此展示。如有不妥，请联系我们。": "These cases are from a few years ago; we have obtained permission from clients for most of them to showcase here. If anything is inappropriate, please contact us.",
 
     // Case-page descriptions
