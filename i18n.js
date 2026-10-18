@@ -169,7 +169,7 @@
     "按 token 计价 · ¥10 / 100 万": "Per-Token Pricing · ¥10 per Million",
     "输入与输出按合计 token 数计费，缓存命中按半价。": "Input and output are billed together; cached tokens are billed at half price.",
     "100 万 tokens = ¥10；1 亿 tokens = ¥1,000；10 亿 tokens = ¥10,000。": "1M tokens = ¥10; 100M tokens = ¥1,000; 1B tokens = ¥10,000.",
-    "图像、音频等多模态 token 按实际使用的模型单独计价，收费前都会明确说明。": "Multimodal tokens (image/audio) are priced per the actual model used, always stated clearly before you are charged.",
+    "这里是实验性价格，我们可能会在几个实际项目后调整。": "This is an experimental price; we may adjust it after a few real projects.",
     "动态计划，一起打磨": "A Dynamic Plan, Polished Together",
     "先做出能用的东西，再根据真实使用持续调整。": "Ship something usable first, then keep refining it based on real usage.",
     "不赶工期、不假装一次到位——功能范围和迭代节奏随需求演进，按用量实付实销。": "We don't rush deadlines or pretend to nail it in one shot — scope and iteration pace evolve with your needs, and you only pay for what you use.",
