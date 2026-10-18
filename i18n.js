@@ -2,8 +2,9 @@
    求真软件（Truth Software）— bilingual (zh / en) support
    The page ships with Chinese as the source language. English strings live
    in the EN map below, keyed by the exact Chinese text found in index.html.
-   Switching languages swaps text nodes and aria-labels in place, and the
-   choice is persisted in localStorage.
+   Switching languages swaps text nodes and aria-labels in place; a user-set
+   choice is persisted in localStorage, while the browser default locale is
+   used otherwise and is never written to storage.
    ========================================================================== */
 
 (function () {
@@ -28,8 +29,10 @@
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
     "求真，把你的想法变成": "Seek truth — and turn your ideas into",
     "可上线的产品": "shippable products",
-    "求真软件是一支 AI 驱动的软件咨询团队，提供从产品设计、开发到上线运营的整体解决方案，并与客户一起追求产品工程上的真理。": "Truth Software is an AI-driven software consulting team delivering end-to-end solutions from product design and development to launch and operations — and pursuing the truth of product engineering together with our customers.",
-    "微信小程序、iOS / Android 应用、Web 平台、H5 营销——都有成熟交付经验。": "WeChat mini-programs, iOS / Android apps, web platforms, and H5 campaigns — all with a proven record of delivery.",
+    "求真软件是一支 AI 驱动的软件咨询团队：从产品设计到上线运营的整体方案，与客户一起追求产品工程上的真理。": "Truth Software is an AI-driven consulting team: end-to-end solutions from product design to launch, pursuing the truth of product engineering with our customers.",
+    "小程序、iOS / Android、Web、H5 都有成熟交付经验；作为 AI 原生团队，日均消耗 10 亿+ tokens。": "Proven delivery across mini-programs, iOS / Android, Web, and H5; as an AI-native team we consume 1B+ tokens a day.",
+    "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do.",
+    "前身为平方根科技，2018–2019 年运营，2026 年重启。": "Formerly Square Root Technology, active 2018–2019 and relaunched in 2026.",
     "获取项目报价": "Get a Project Quote",
     "查看案例 ↓": "View Case Studies ↓",
     "历史交付项目": "Projects Delivered",
@@ -194,10 +197,8 @@
 
     // Hero additions
     "软件开发 · 技术咨询 · AI 原生 · 产品外包": "Software Development · Technical Consulting · AI-Native · Product Outsourcing",
-    "我们更是一支 AI 原生团队：日均消耗超过 10 亿 tokens，把大模型与智能体真正用进研发流程。": "We are also an AI-native team: over 1 billion tokens consumed every day, with LLMs and agents built deep into our engineering process.",
-    "求真不是口号，而是做事方法：先把问题想明白，再如实说明能做到什么、不能做到什么。": "Truth-seeking is not a slogan — it is how we work: understand the problem first, then say honestly what we can and cannot do.",
-    "我们宁愿交付诚实、耐得住时间检验的软件，也不做天花乱坠的承诺。": "We would rather deliver honest software that stands the test of time than make promises that sound great but do not hold up.",
-    "求真软件的前身是平方根科技——依托于具有 3 万工程师用户的趣直播知识分享社区成长起来的软件咨询公司，活跃于 2018 到 2019 年，于 2026 年重新开始运营。": "Truth Software's predecessor was Square Root Technology — a software consulting company that grew out of QuZhiBo, a knowledge-sharing live-streaming community with 30,000 engineer users, active from 2018 to 2019 and relaunched in 2026.",
+    "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do.",
+    "前身为平方根科技，2018–2019 年运营，2026 年重启。": "Formerly Square Root Technology, active 2018–2019 and relaunched in 2026.",
     "10 亿+": "1B+",
     "日均 AI tokens 消耗": "AI tokens consumed per day",
 
@@ -391,7 +392,7 @@
   // ---- Language switching ------------------------------------------------ //
   const toggle = document.getElementById('langToggle');
 
-  function applyLang(lang) {
+  function applyLang(lang, persist) {
     const en = lang === 'en';
 
     document.documentElement.lang = en ? 'en' : 'zh-CN';
@@ -427,9 +428,14 @@
       toggle.setAttribute('aria-label', en ? '切换为中文' : 'Switch to English');
     }
 
-    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) { /* private mode */ }
+    if (persist) {
+      try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) { /* private mode */ }
+    }
   }
 
+  // Language selection: use the user's saved choice if they ever set one,
+  // otherwise fall back to the browser's default locale. The browser default
+  // is never written to localStorage — only an explicit user toggle persists.
   let saved = null;
   try { saved = localStorage.getItem(STORAGE_KEY); } catch (e) { /* ignore */ }
   const initial = saved === 'en' || saved === 'zh'
@@ -440,7 +446,7 @@
 
   if (toggle) {
     toggle.addEventListener('click', () => {
-      applyLang(document.documentElement.lang === 'en' ? 'zh' : 'en');
+      applyLang(document.documentElement.lang === 'en' ? 'zh' : 'en', true);
     });
   }
 })();
