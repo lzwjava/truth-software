@@ -33,7 +33,7 @@
     "获取项目报价": "Get a Project Quote",
     "查看案例 ↓": "View Case Studies ↓",
     "历史交付项目": "Projects Delivered",
-    "人专业团队 · 20 人兼职": "professional team member · 20 part-time",
+    "人专业团队 · 20 人兼职": "professional team members · 20 part-time",
     "全平台覆盖 iOS / Android / Web / 小程序": "platforms covered: iOS / Android / Web / Mini Programs",
 
     // Services
@@ -136,7 +136,7 @@
 
     // Team
     "核心团队": "Core Team",
-    "1 人全职 + 20 人兼职的开发团队：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "A team of 1 full-time professional plus 20 part-time experts: front-end, back-end, iOS, Android, and mini-program engineers plus UI/UX designers.",
+    "2 人全职 + 20 人兼职的开发团队：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "A team of 2 full-time professionals plus 20 part-time experts: front-end, back-end, iOS, Android, and mini-program engineers plus UI/UX designers.",
     "李智维": "Li Zhiwei",
     "创始人 / CEO": "Founder / CEO",
     "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，重度 AI 原生实践者，12 年行业经验。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; heavy AI-native practitioner; 12 years of industry experience.",
