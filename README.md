@@ -1,4 +1,4 @@
-# 智维软件 — Portfolio Website
+# 求真软件（Truth Software）— Portfolio Website
 
 A simple, dependency-free software consulting portfolio site. Single static page,
 no build step, ready to host on GitHub Pages or any static host.
@@ -13,6 +13,10 @@ campaigns, plus the company profile (~15-person team, 40+ historical projects).
 
 The site also presents the modern side of the company:
 
+- **About / philosophy** (`#about`) — the Truth Software manifesto distilled
+  into six principles: think clearly first, build for real users, respect what
+  already exists, think in years, treat customers as collaborators, and make
+  transparency part of the product.
 - **AI-native team** (dark band section `#ai`) — 1B+ tokens consumed per day,
   20+ custom agents, 400+ reusable automation scripts, 1,800+ knowledge-base
   docs, plus the AI tools and models used daily (Claude Code, Copilot,

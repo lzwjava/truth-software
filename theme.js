@@ -2,7 +2,7 @@
 (function () {
   'use strict';
 
-  const KEY = 'zhiwei-theme';
+  const KEY = 'truth-theme';
   const btn = document.getElementById('themeToggle');
 
   function label(dark) {

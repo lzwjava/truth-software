@@ -212,7 +212,7 @@ NAV = """  <header class="nav">
     <div class="container nav__inner">
       <a href="{home}" class="nav__brand">
         <span class="nav__logo" aria-hidden="true"></span>
-        智维软件
+        求真软件
       </a>
       <nav class="nav__links" aria-label="主导航">
         <a href="{home}">首页</a>
@@ -226,7 +226,7 @@ NAV = """  <header class="nav">
 
 FOOTER = """  <footer class="footer">
     <div class="container footer__inner">
-      <p>© 2018–<span id="year">2026</span> 智维软件 · 软件开发与技术咨询</p>
+      <p>© 2018–<span id="year">2026</span> 求真软件 · 软件开发与技术咨询</p>
     </div>
   </footer>
   <script>
@@ -283,13 +283,13 @@ def case_file(case, prev, nxt, portfolio_relative="../portfolio.html"):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{case["name"]} — 智维软件案例</title>
+  <title>{case["name"]} — 求真软件案例</title>
   <meta name="description" content="{case["desc"]}">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%B0%3C/text%3E%3C/svg%3E">
   <script>
     (function () {{
       try {{
-        var t = localStorage.getItem('zhiwei-theme');
+        var t = localStorage.getItem('truth-theme');
         var dark = t === 'dark' || (t !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
         document.documentElement.dataset.theme = dark ? 'dark' : 'light';
       }} catch (e) {{ document.documentElement.dataset.theme = 'light'; }}
@@ -369,13 +369,13 @@ def portfolio_file():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>案例作品集 — 智维软件</title>
-  <meta name="description" content="智维软件案例作品集：小程序、App、Web 与 H5 项目真实界面截图，含 HomeNet、律享、粉笔万词王、寻厢记、几秒社区、喔喔选装、众誉旅游大数据等交付案例。">
+  <title>案例作品集 — 求真软件</title>
+  <meta name="description" content="求真软件案例作品集：小程序、App、Web 与 H5 项目真实界面截图，含 HomeNet、律享、粉笔万词王、寻厢记、几秒社区、喔喔选装、众誉旅游大数据等交付案例。">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%B0%3C/text%3E%3C/svg%3E">
   <script>
     (function () {{
       try {{
-        var t = localStorage.getItem('zhiwei-theme');
+        var t = localStorage.getItem('truth-theme');
         var dark = t === 'dark' || (t !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
         document.documentElement.dataset.theme = dark ? 'dark' : 'light';
       }} catch (e) {{ document.documentElement.dataset.theme = 'light'; }}
@@ -434,8 +434,8 @@ def portfolio_file():
     }});
   </script>
 
-  <span id="i18nTitleEn" hidden>Case Studies — Zhiwei Software Portfolio</span>
-  <span id="i18nMetaEn" hidden>Smart software consulting portfolio: real screens from delivered mini-programs, apps, and web platforms \u2014 HomeNet, LawShare, Fenbi Word Master, Room Finder, JiMiao Community, WoWo Renovation, Tourism Big Data, and more.</span>
+  <span id="i18nTitleEn" hidden>Case Studies — Truth Software Portfolio</span>
+  <span id="i18nMetaEn" hidden>Truth Software portfolio: real screens from delivered mini-programs, apps, and web platforms \u2014 HomeNet, LawShare, Fenbi Word Master, Room Finder, JiMiao Community, WoWo Renovation, Tourism Big Data, and more.</span>
 
 {FOOTER.format(i18n="i18n.js", theme="theme.js")}"""
 

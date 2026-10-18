@@ -1,5 +1,5 @@
 /* ==========================================================================
-   智维软件 — bilingual (zh / en) support
+   求真软件（Truth Software）— bilingual (zh / en) support
    The page ships with Chinese as the source language. English strings live
    in the EN map below, keyed by the exact Chinese text found in index.html.
    Switching languages swaps text nodes and aria-labels in place, and the
@@ -9,12 +9,12 @@
 (function () {
   'use strict';
 
-  const STORAGE_KEY = 'zhiwei-lang';
+  const STORAGE_KEY = 'truth-lang';
 
   // ---- English dictionary: exact Chinese source text -> English ---------- //
   const EN = {
-    // Brand — 智维软件 is written as "Zhiwei Software" in English
-    "智维软件": "Zhiwei Software",
+    // Brand — 求真软件 is written as "Truth Software" in English
+    "求真软件": "Truth Software",
 
     // Navigation
     "服务": "Services",
@@ -26,14 +26,14 @@
 
     // Hero
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
-    "把想法变成": "Turn ideas into",
+    "求真，把你的想法变成": "Seek truth — and turn your ideas into",
     "可上线的产品": "shippable products",
-    "智维软件是一支 AI 驱动的软件咨询团队，提供从产品设计、开发到上线运营的整体解决方案。": "Zhiwei Software is an AI-driven software consulting team, delivering end-to-end solutions from product design and development to launch and operations.",
+    "求真软件是一支 AI 驱动的软件咨询团队，提供从产品设计、开发到上线运营的整体解决方案。": "Truth Software is an AI-driven software consulting team, delivering end-to-end solutions from product design and development to launch and operations.",
     "微信小程序、iOS / Android 应用、Web 平台、H5 营销——都有成熟交付经验。": "WeChat mini-programs, iOS / Android apps, web platforms, and H5 campaigns — all with a proven record of delivery.",
     "获取项目报价": "Get a Project Quote",
     "查看案例 ↓": "View Case Studies ↓",
     "历史交付项目": "Projects Delivered",
-    "人专业团队": "professional team members",
+    "人专业团队 · 20 人兼职": "professional team member · 20 part-time",
     "全平台覆盖 iOS / Android / Web / 小程序": "platforms covered: iOS / Android / Web / Mini Programs",
 
     // Services
@@ -136,7 +136,7 @@
 
     // Team
     "核心团队": "Core Team",
-    "约 5 人的开发团队：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "A team of about 5: front-end, back-end, iOS, Android, and mini-program engineers plus UI/UX designers.",
+    "1 人全职 + 20 人兼职的开发团队：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "A team of 1 full-time professional plus 20 part-time experts: front-end, back-end, iOS, Android, and mini-program engineers plus UI/UX designers.",
     "李智维": "Li Zhiwei",
     "创始人 / CEO": "Founder / CEO",
     "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，重度 AI 原生实践者，12 年行业经验。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; heavy AI-native practitioner; 12 years of industry experience.",
@@ -152,7 +152,7 @@
     "需求评估": "Requirement Assessment",
     "时间周期与投入人力根据具体需求工作量确定，先沟通清楚再报价。": "Timeline and staffing are set based on the actual scope of work; we align on the details before quoting.",
     "报价与合同": "Quote & Contract",
-    "根据需求单独出具报价，双方确认合作后签署合同协议，流程规范透明。": "A tailored quote is issued for each project; once both sides confirm, we sign a contract — a standard, transparent process.",
+    "根据需求单独出具报价，双方确认后签署合同——定价透明、无隐藏费用，账单清晰、可解释。": "A tailored quote for each project, confirmed before we sign — transparent pricing, no hidden fees, and invoices that are clear and explainable.",
     "维护与长期合作": "Maintenance & Long-term Partnership",
     "每次合作预留半个月项目维护期，支持长期合作与持续迭代。": "Every engagement includes a half-month maintenance period, with support for long-term cooperation and continuous iteration.",
 
@@ -170,10 +170,32 @@
     "技术栈": "Tech Stack",
     "金融": "Finance",
 
+    // Truth Software identity — About / manifesto section
+    "关于": "About",
+    "想清楚 · 做值得做的事 · 打持久战": "Think clearly · Build what matters · Play the long game",
+    "我们信奉什么": "What We Believe",
+    "求真软件不是「卖代码」或「卖 AI tokens」的公司。": "Truth Software is not a company that sells code or AI tokens.",
+    "我们追求对计算机科学、工程与业务的深入理解，": "We pursue a deep understanding of computer science, engineering, and business,",
+    "构建值得存在的软件，服务真实的用户，并与愿意长期一起创造价值的人协作。": "build software that deserves to exist, serve real users, and collaborate with people who want to create real value over many years.",
+    "求真 · 想清楚再做": "Truth First · Think Clearly",
+    "用深入的理解取代模仿，用简单取代不必要的复杂。把问题想清楚，再动手构建。": "Replace imitation with deep understanding and unnecessary complexity with simplicity. Think clearly, then build.",
+    "为真实用户而建": "Build for Real Users",
+    "先解决我们自己的问题，再把工具带给真实用户，从实际使用的反馈中不断改进，而不是把写代码等同于创造价值。": "We start by solving problems we have ourselves, bring the tools to real users, and keep improving them through actual use — never confusing writing code with creating value.",
+    "尊重已有的成果": "Respect What Exists",
+    "好的开源方案，我们直接使用、贡献或帮客户落地。不为写代码而写代码，只为真正解决问题。": "When a good open-source solution already exists, we use it, contribute to it, or help customers adopt it. We write code to solve problems — not to maximize code.",
+    "以年为单位思考": "Think in Years",
+    "信任、技术深度、好产品与好关系都需要时间沉淀。以可持续的进步，取代表面上的快速成功。": "Trust, technical depth, good products, and strong relationships all take time. We value sustainable progress over the appearance of rapid success.",
+    "把客户当作协作者": "Customers as Collaborators",
+    "理解客户的问题，尊重他们的约束，诚实解释每个决定，选择符合其长期利益的做法。": "Understand customers' problems, respect their constraints, explain decisions honestly, and choose what serves their long-term interests.",
+    "透明是产品的一部分": "Transparency Is Part of the Product",
+    "清晰定价、可预期的成本、诚实的局限。靠真实价值赢得信任，而不是靠复杂性留住客户。": "Clear pricing, predictable costs, and honest limitations. We earn trust with real value, not by keeping customers dependent on complexity.",
+    "AI 的目标是放大个人与小型团队的能力——把重复的工作交给模型与智能体，": "AI should expand what individuals and small teams can do — give repetitive work to models and agents,",
+    "把人的时间留给理解问题、设计系统与创造有价值的产品。": "and give people their time back for understanding problems, designing systems, and creating valuable products.",
+
     // Hero additions
     "软件开发 · 技术咨询 · AI 原生 · 产品外包": "Software Development · Technical Consulting · AI-Native · Product Outsourcing",
     "我们更是一支 AI 原生团队：日均消耗超过 10 亿 tokens，把大模型与智能体真正用进研发流程。": "We are also an AI-native team: over 1 billion tokens consumed every day, with LLMs and agents built deep into our engineering process.",
-    "智维软件的前身是平方根科技——依托于具有 3 万工程师用户的趣直播知识分享社区成长起来的软件咨询公司，活跃于 2018 到 2019 年，于 2026 年重新开始运营。": "Zhiwei Software's predecessor was Square Root Technology — a software consulting company that grew out of QuZhiBo, a knowledge-sharing live-streaming community with 30,000 engineer users, active from 2018 to 2019 and relaunched in 2026.",
+    "求真软件的前身是平方根科技——依托于具有 3 万工程师用户的趣直播知识分享社区成长起来的软件咨询公司，活跃于 2018 到 2019 年，于 2026 年重新开始运营。": "Truth Software's predecessor was Square Root Technology — a software consulting company that grew out of QuZhiBo, a knowledge-sharing live-streaming community with 30,000 engineer users, active from 2018 to 2019 and relaunched in 2026.",
     "10 亿+": "1B+",
     "日均 AI tokens 消耗": "AI tokens consumed per day",
 
@@ -318,14 +340,14 @@
     "儿童启蒙英语学习游戏，覆盖 iOS / Android 双端。": "English-learning games for children, built for both iOS and Android."
   };
 
-  const EN_TITLE = 'Zhiwei Software — Software Development & Technical Consulting';
+  const EN_TITLE = 'Truth Software — Software Development & Technical Consulting';
   // Pages may provide a page-specific English title / description via these
   // hidden elements (used by portfolio.html and cases/*.html).
   const TITLE_EN_EL = document.getElementById('i18nTitleEn');
   const META_EN_EL = document.getElementById('i18nMetaEn');
   const EN_META = META_EN_EL && META_EN_EL.textContent.trim()
     ? META_EN_EL.textContent.trim()
-    : 'Zhiwei Software provides product design, iOS/Android app, WeChat mini-program, web and H5 development consulting. An AI-native team consuming 1B+ tokens per day; 40+ delivered projects for clients including YuantiKu, Fenbi, and Jiangsu TV, plus financial project experience with DBS and HSBC.';
+    : 'Truth Software provides product design, iOS/Android app, WeChat mini-program, web and H5 development consulting. An AI-native team consuming 1B+ tokens per day; 40+ delivered projects for clients including YuantiKu, Fenbi, and Jiangsu TV, plus financial project experience with DBS and HSBC.';
 
   // Longest key first so full sentences win over short labels like 开发.
   const KEYS = Object.keys(EN).sort((a, b) => b.length - a.length);
