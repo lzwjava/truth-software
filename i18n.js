@@ -28,7 +28,7 @@
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
     "求真，把你的想法变成": "Seek truth — and turn your ideas into",
     "可上线的产品": "shippable products",
-    "求真软件是一支 AI 驱动的软件咨询团队，提供从产品设计、开发到上线运营的整体解决方案。": "Truth Software is an AI-driven software consulting team, delivering end-to-end solutions from product design and development to launch and operations.",
+    "求真软件是一支 AI 驱动的软件咨询团队，提供从产品设计、开发到上线运营的整体解决方案，并与客户一起追求产品工程上的真理。": "Truth Software is an AI-driven software consulting team delivering end-to-end solutions from product design and development to launch and operations — and pursuing the truth of product engineering together with our customers.",
     "微信小程序、iOS / Android 应用、Web 平台、H5 营销——都有成熟交付经验。": "WeChat mini-programs, iOS / Android apps, web platforms, and H5 campaigns — all with a proven record of delivery.",
     "获取项目报价": "Get a Project Quote",
     "查看案例 ↓": "View Case Studies ↓",
