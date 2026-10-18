@@ -159,6 +159,22 @@
     "维护与长期合作": "Maintenance & Long-term Partnership",
     "每次合作预留半个月项目维护期，支持长期合作与持续迭代。": "Every engagement includes a half-month maintenance period, with support for long-term cooperation and continuous iteration.",
 
+    // Pricing — transparent token-based pricing
+    "计价": "Pricing",
+    "透明的 token 计价": "Transparent Per-Token Pricing",
+    "我们按实际投入计价，而不是按工期或想象力计价。": "We price by actual work delivered — not by deadlines or imagination.",
+    "计划是动态的：需要多少功能、做多少次调整，由你和产品反馈决定——每一点工作都按 token 用量计费，账单永远看得懂。": "The plan is dynamic: how many features and how many iterations you need is decided by you and by real product feedback — every bit of work is billed by tokens, and the invoice always makes sense.",
+    "预购 $500（或等值人民币）": "$500 Preorder (or CNY equivalent)",
+    "预存的使用额度：不设有效期，可随时用于抵扣 token 用量。它代表双方都准备好一起持续打磨，而不是一次快进快出。": "A prepaid usage credit with no expiry, applied to your token usage at any time. It signals that both sides are ready to keep polishing together — not a quick in-and-out.",
+    "按 token 计价 · ¥10 / 100 万": "Per-Token Pricing · ¥10 per Million",
+    "输入与输出合并计费，主流文本模型统一单价。": "Input and output tokens are billed together at one flat rate for mainstream text models.",
+    "100 万 tokens = ¥10；1 亿 tokens = ¥1,000；10 亿 tokens = ¥10,000。": "1M tokens = ¥10; 100M tokens = ¥1,000; 1B tokens = ¥10,000.",
+    "动态计划，一起打磨": "A Dynamic Plan, Polished Together",
+    "先做出能用的东西，再根据真实使用持续调整。": "Ship something usable first, then keep refining it based on real usage.",
+    "不赶工期、不假装一次到位——功能范围和迭代节奏随需求演进，按用量实付实销。": "We don't rush deadlines or pretend to nail it in one shot — scope and iteration pace evolve with your needs, and you only pay for what you use.",
+    "无隐藏费用，无令人意外的账单。": "No hidden fees, no surprise bills.",
+    "图像、音频等特殊模型或缓存计费另有明确说明；账单每一项都可解释。": "Special models (image/audio) and cache pricing are always stated explicitly; every line on the bill is explainable.",
+
     // Contact
     "聊聊你的项目": "Let's Talk About Your Project",
     "无论是一个想法、一份需求文档，还是已有产品需要重构——欢迎联系，我们会在 1 个工作日内回复。": "Whether it is an idea, a requirements document, or an existing product that needs a rebuild — get in touch and we will reply within one business day.",
