@@ -345,6 +345,7 @@
     "粉笔网 · 游戏系列": "Fenbi · Game Series",
     "为教育科技公司开发的互动学习游戏系列（3 款）：超市主题、边玩边学。": "A series of interactive learning games (3 titles) for an ed-tech company \u2014 supermarket-themed, learning through play.",
     "摘自《平方根科技案例集》—— 每个项目均标注角色与周期。点击封面可查看完整案例界面。": "From the SquareRoot Tech case book \u2014 each project lists its role and timeline. Click a cover for full screens.",
+    "以上案例来自数年前，大部分已征得客户许可后在此展示。如有不妥，请联系我们。": "These cases are from a few years ago; we have obtained permission from clients for most of them to showcase here. If anything is inappropriate, please contact us.",
 
     // Case-page descriptions
     "江苏卫视《最强大脑 · 燃烧吧大脑》官方微信小程序：能力测评、竞技答题与世界排行榜，配合节目播出实现观众同步挑战互动。": "Official WeChat mini-program for Jiangsu TV's Super Brain: Burning Brain \u2014 capability tests, competitive quizzes, and a global leaderboard that lets viewers challenge along with the show.",
