@@ -27,8 +27,8 @@
 
     // Hero
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
-    "求真，把你的想法变成": "Seek truth — and turn your ideas into",
-    "可上线的产品": "shippable products",
+    "不只是把想法变成可上线的产品，": "More than turning your ideas into shippable products —",
+    "更是一起打磨求真": "we refine the truth together.",
     "求真软件是一支 AI 驱动的软件咨询团队：从产品设计到上线运营的整体方案，与客户一起追求产品工程上的真理。": "Truth Software is an AI-driven consulting team: end-to-end solutions from product design to launch, pursuing the truth of product engineering with our customers.",
     "小程序、iOS / Android、Web、H5 都有成熟交付经验；作为 AI 原生团队，日均消耗 10 亿+ tokens。": "Proven delivery across mini-programs, iOS / Android, Web, and H5; as an AI-native team we consume 1B+ tokens a day.",
     "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do.",
@@ -174,12 +174,13 @@
     "先做出能用的东西，再根据真实使用持续调整。": "Ship something usable first, then keep refining it based on real usage.",
     "不赶工期、不假装一次到位——功能范围和迭代节奏随需求演进，按用量实付实销。": "We don't rush deadlines or pretend to nail it in one shot — scope and iteration pace evolve with your needs, and you only pay for what you use.",
     "无隐藏费用，无令人意外的账单——预购金不设有效期，未使用部分可随时全额退款。": "No hidden fees, no surprise bills — the preorder has no expiry, and any unused portion can be fully refunded at any time.",
-    "基础单价已包含模型、基础设施与支持成本；若上游价格重大变化，我们会提前 30 天书面说明后再调整。": "The base rate already covers model, infrastructure, and support costs; if upstream prices change significantly, we will give 30 days' written notice before adjusting.",
+    "基础单价已包含模型、基础设施与支持成本；若上游价格重大变化，我们也会跟着变化，并且会说明。": "The base rate already covers model, infrastructure, and support costs; if upstream prices change significantly, our pricing will follow and we will explain the change.",
 
     // Contact
     "聊聊你的项目": "Let's Talk About Your Project",
     "无论是一个想法、一份需求文档，还是已有产品需要重构——欢迎联系，我们会在 1 个工作日内回复。": "Whether it is an idea, a requirements document, or an existing product that needs a rebuild — get in touch and we will reply within one business day.",
     "微信与 WhatsApp 使用同一手机号。": "WeChat and WhatsApp use the same phone number.",
+    "办公地点：广州市增城区中新镇风光路": "Office: Fengguang Road, Zhongxin Town, Zengcheng District, Guangzhou",
 
     // Footer
     "软件开发与技术咨询": "Software Development & Technical Consulting",

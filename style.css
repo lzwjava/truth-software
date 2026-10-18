@@ -71,7 +71,8 @@ body {
   align-items: center;
   gap: 10px;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 16px;
+  white-space: nowrap;
   color: var(--ink);
   text-decoration: none;
   letter-spacing: 0.2px;
@@ -88,14 +89,14 @@ body {
 .nav__links {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 10px;
   white-space: nowrap;
 }
 
 .nav__links a {
   color: var(--ink-soft);
   text-decoration: none;
-  font-size: 14.5px;
+  font-size: 13.5px;
   transition: color 0.15s ease;
 }
 
@@ -167,6 +168,12 @@ body {
   letter-spacing: 0.5px;
 }
 
+/* English hero title is much longer than Chinese — shrink so it fits in 2 lines */
+.hero__title:lang(en) {
+  font-size: clamp(14px, 2.8vw, 30px);
+  line-height: 1.3;
+}
+
 .hero__subtitle {
   max-width: 640px;
   font-size: 17px;
@@ -222,6 +229,30 @@ body {
 }
 
 .btn--ghost:hover { border-color: var(--ink-faint); }
+
+/* WeChat QR shown on hover over the phone number */
+.wechat-hover {
+  position: relative;
+}
+
+.wechat-hover img {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  z-index: 1000;
+  background: #fff;
+}
+
+.wechat-hover:hover img {
+  display: block;
+}
 
 /* ---------- Stats ---------- */
 
@@ -935,6 +966,12 @@ html[data-theme="dark"] .section--dark {
     radial-gradient(620px 320px at 85% 0%, rgba(139, 92, 246, 0.28), transparent 62%),
     radial-gradient(520px 300px at 5% 100%, rgba(236, 72, 153, 0.20), transparent 62%),
     #0c0e13;
+}
+
+@media (max-width: 1000px) {
+  .nav__links { gap: 8px; }
+  .nav__links a { font-size: 13px; }
+  .nav__cta { padding: 7px 12px; }
 }
 
 @media (max-width: 800px) {
