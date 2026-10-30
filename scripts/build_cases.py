@@ -394,6 +394,7 @@ def portfolio_file():
         <p class="hero__eyebrow">CASE STUDIES · 2018–2020</p>
         <h1 class="hero__title"><span class="grad-text">案例作品集</span></h1>
         <p class="hero__subtitle">每个项目都是真实交付，以下为各项目实际界面截图。 点击任意案例查看完整详情与多张界面预览。</p>
+        <p class="section__note">以上案例来自数年前，大部分已征得客户许可后在此展示。如有不妥，请联系我们。</p>
       </div>
     </section>
 
