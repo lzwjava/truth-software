@@ -27,9 +27,9 @@
 
     // Hero
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
-    "不只是把想法变成可上线的产品，": "More than turning your ideas into shippable products —",
-    "更是一起打磨求真": "we refine the truth together.",
-    "求真软件是一支 AI 驱动的软件咨询团队：从产品设计到上线运营的整体方案，与客户一起追求产品工程上的真理。": "Truth Software is an AI-driven consulting team: end-to-end solutions from product design to launch, pursuing the truth of product engineering with our customers.",
+    "按 token 使用量计价，": "Priced by token usage,",
+    "把你的想法变成产品，一起打磨求真": "we turn your ideas into products and polish the truth together.",
+    "求真软件是一支 AI 驱动的软件咨询团队：从产品设计到上线运营的整体方案，按 token 使用量计价，与客户一起追求产品工程上的真理。": "Truth Software is an AI-driven consulting team: end-to-end solutions from product design to launch, priced by token usage, pursuing the truth of product engineering with our customers.",
     "小程序、iOS / Android、Web、H5 都有成熟交付经验；作为 AI 原生团队，为客户交付项目时，日均消耗 10 亿+ tokens。": "Proven delivery across mini-programs, iOS / Android, Web, and H5; as an AI-native team we consume 1B+ tokens a day when delivering for clients.",
     "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do.",
     "前身为平方根科技，2018–2019 年运营，2026 年重启。": "Formerly Square Root Technology, active 2018–2019 and relaunched in 2026.",
