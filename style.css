@@ -605,6 +605,7 @@ html[lang="en"] .work__meta b::after { content: " "; }
 }
 
 .footer__inner p { margin: 0; }
+.footer__company { opacity: 0.85; }
 
 /* ---------- AI-native (dark band) ---------- */
 
