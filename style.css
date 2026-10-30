@@ -168,9 +168,9 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* English hero title is much longer than Chinese — shrink so it fits in 2 lines */
+/* English hero title is much longer than Chinese — balance size vs. line count */
 .hero__title:lang(en) {
-  font-size: clamp(14px, 2.8vw, 30px);
+  font-size: clamp(21px, 3.6vw, 40px);
   line-height: 1.3;
 }
 
