@@ -1,0 +1,54 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, closed]
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Secrets are stored in the "prod" GitHub environment, so the job
+    # must opt in to that environment to access them.
+    environment: prod
+    permissions:
+      contents: read
+      deployments: write
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify Cloudflare credentials
+        # Fail fast with a clear message instead of wrangler's cryptic
+        # "Authentication error [code: 10000]". Checks the Workers API
+        # directly because /user/tokens/verify requires the token to have
+        # User Details: Read, which Workers-scoped tokens often lack.
+        run: |
+          echo "Target account (CLOUDFLARE_ACCOUNT_ID): $CLOUDFLARE_ACCOUNT_ID"
+          HTTP_CODE=$(curl -s -o /tmp/cf_check.json -w '%{http_code}' \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/services?per_page=1" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          echo "Workers API status: $HTTP_CODE"
+          cat /tmp/cf_check.json
+          python3 -c "import json,sys; d=json.load(open('/tmp/cf_check.json')); sys.exit(0 if d.get('success') else 1)" || {
+            echo "::error::CLOUDFLARE_API_TOKEN cannot access account $CLOUDFLARE_ACCOUNT_ID (HTTP $HTTP_CODE). Fix the CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN secrets in Settings > Secrets and variables."
+            exit 1
+          }
+          echo "Cloudflare credentials OK."
+
+      - name: Deploy to Cloudflare Workers
+        # wrangler.jsonc: name truth-software, assets ./ (static site at repo root).
+        # The site is served by this Worker via the existing zone route, so
+        # every push updates it.
+        run: npx --yes wrangler deploy

@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "truth-software",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-24",
+  // No workers.dev subdomain - the site is served from its own domain via the
+  // existing zone route (domain/* -> truth-software).
+  "workers_dev": false,
+  // Serve the static site straight from the repo root.
+  "assets": {
+    "directory": "./",
+    "exclude": [
+      ".git",
+      ".github",
+      "scripts",
+      "src",
+      "wrangler.jsonc",
+      "README.md",
+      ".nojekyll"
+    ]
+  }
+}

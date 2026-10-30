@@ -63,11 +63,17 @@ python3 -m http.server 8000
 # → http://localhost:8000
 ```
 
-## Deploy (GitHub Pages)
+## Deploy (Cloudflare)
 
-1. Push to `main` on `github.com/lzwjava/zhiwei-software`.
-2. Repo → Settings → Pages → Source: `Deploy from a branch` → `main` / root.
-3. The site appears at `https://lzwjava.github.io/zhiwei-software/`.
+The site is a static site served from the repo root by a Cloudflare Worker with
+static assets (see `wrangler.jsonc`). Every push to `main` deploys via
+`.github/workflows/deploy.yml`:
+
+1. Push to `main` on `github.com/lzwjava/truth-software`.
+2. The workflow needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`
+   secrets in the `prod` GitHub environment (Settings → Environments → prod).
+3. Point a zone route (`domain/*` → `truth-software`) at the Worker from the
+   Cloudflare dashboard so the deployed site is reachable.
 
 ## Before launch
 
