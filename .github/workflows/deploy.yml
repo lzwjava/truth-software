@@ -1,19 +1,45 @@
 name: Deploy to Cloudflare Pages
 
 on:
+  # Every commit pushed (any branch) triggers a build check.
   push:
-    branches: [main]
   pull_request:
     branches: [main]
     types: [opened, synchronize, closed]
   workflow_dispatch:
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
+  build:
+    name: Build (regenerate static pages)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Regenerate cases & portfolio pages
+        run: python3 scripts/build_cases.py
+
+      - name: Verify generated files are committed
+        # Fails if the CASES table was edited but cases/*.html / portfolio.html
+        # were not regenerated and committed.
+        run: |
+          if git diff --quiet; then
+            echo "Generated pages are up to date."
+          else
+            echo "::error::Generated pages are out of date - run 'python3 scripts/build_cases.py' and commit the results."
+            git diff --stat
+            exit 1
+          fi
+
   deploy:
+    name: Deploy to Cloudflare Pages
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     # Secrets are stored in the "prod" GitHub environment, so the job
