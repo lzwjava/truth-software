@@ -164,7 +164,7 @@
     "透明的 token 计价": "Transparent Per-Token Pricing",
     "我们按实际投入计价，而不是按工期或想象力计价。": "We price by actual work delivered — not by deadlines or imagination.",
     "计划是动态的：需要多少功能、做多少次调整，由你和产品反馈决定——每一点工作都按 token 用量计费，账单永远看得懂。": "The plan is dynamic: how many features and how many iterations you need is decided by you and by real product feedback — every bit of work is billed by tokens, and the invoice always makes sense.",
-    "预购 $500（或等值人民币）": "$500 Preorder (or CNY equivalent)",
+    "预购 $100（或等值人民币）": "$100 Preorder (or CNY equivalent)",
     "预存的使用额度：不设有效期、可随时全额退款，并可直接抵扣 token 用量。它代表双方都准备好一起持续打磨，而不是一次快进快出。": "A prepaid usage credit with no expiry: fully refundable at any time, and it applies directly to your token usage. It signals that both sides are ready to keep polishing together — not a quick in-and-out.",
     "按 token 计价 · ¥20 / 100 万": "Per-Token Pricing · ¥20 per Million",
     "输入与输出按合计 token 数计费，缓存命中按半价。": "Input and output are billed together; cached tokens are billed at half price.",
