@@ -6,6 +6,20 @@ no build step, ready to host on GitHub Pages or any static host.
 The page ships in Chinese and supports a full English version via the language
 toggle in the navigation (`i18n.js` holds the English strings).
 
+The site is reorganized around the company's **four business lines**:
+
+| # | Business line | Where on the page |
+|---|---|---|
+| 01 | **模型训练与推理** (model training & inference) — pretraining small LLMs from scratch, fine-tuning/alignment, inference serving (vLLM / SGLang / llama.cpp), GPU workstations | `#ml` |
+| 02 | **AI 转型咨询** (AI transformation consultancy) — current-state assessment, opportunity mapping, phased roadmap | `#ai-transform` |
+| 03 | **AI 应用与智能体开发** (AI apps & agent development) — chatbots, RAG, workflow agents, automation | `#ai-services` |
+| 04 | **一般应用开发** (general development) — iOS / Android, WeChat mini-programs, Web platforms & admin systems, H5 marketing | `#services` |
+
+A `#lines` overview section at the top links all four; the `#lab` section hosts the
+Truth Lab research content (experiments, 13 training runs, hardware, founder path in
+`#team`) that backs business line 01. The former separate **truth-lab** single-page
+site has been consolidated into this repo.
+
 Content (services, case studies, team, engagement model) is adapted from the
 case book *平方根科技案例集 (2018.10)*, which documents 24 delivered consulting
 projects across WeChat Mini Programs, iOS/Android apps, Web platforms, and H5
