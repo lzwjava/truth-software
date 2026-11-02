@@ -285,7 +285,9 @@ def case_file(case, prev, nxt, portfolio_relative="../portfolio.html"):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{case["name"]} — 求真软件案例</title>
   <meta name="description" content="{case["desc"]}">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%B0%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="../logo/favicon.ico" sizes="any">
+  <link rel="icon" href="../logo/deepcompute-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="../logo/apple-touch-icon.png">
   <script>
     (function () {{
       try {{
@@ -371,7 +373,9 @@ def portfolio_file():
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>案例作品集 — 求真软件</title>
   <meta name="description" content="求真软件案例作品集：小程序、App、Web 与 H5 项目真实界面截图，含 HomeNet、律享、粉笔万词王、寻厢记、几秒社区、喔喔选装、众誉旅游大数据等交付案例。">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%B0%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="logo/favicon.ico" sizes="any">
+  <link rel="icon" href="logo/deepcompute-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="logo/apple-touch-icon.png">
   <script>
     (function () {{
       try {{
