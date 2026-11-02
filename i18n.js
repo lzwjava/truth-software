@@ -28,7 +28,7 @@
     // Hero
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
     "按 token 计费，随时协作——": "Priced by the token, collaborating anytime —",
-    "你的长期技术合伙人，陪你打磨求真产品": "your long-term technical partner, building truth-driven products with you.",
+    "你的长期技术合伙人，与你一起打造产品，探索求真": "your long-term technical partner — building products with you, exploring the truth together.",
     "求真软件是一支 AI 驱动的软件咨询团队：从产品设计到上线运营的整体方案，按 token 使用量计价，与客户一起追求产品工程上的真理。": "TruthSoft is an AI-driven consulting team: end-to-end solutions from product design to launch, priced by token usage, pursuing the truth of product engineering with our customers.",
     "小程序、iOS / Android、Web、H5 都有成熟交付经验；作为 AI 原生团队，为客户交付项目时，日均消耗 10 亿+ tokens。": "Proven delivery across mini-programs, iOS / Android, Web, and H5; as an AI-native team we consume 1B+ tokens a day when delivering for clients.",
     "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do.",
