@@ -435,8 +435,8 @@ def portfolio_file():
     }});
   </script>
 
-  <span id="i18nTitleEn" hidden>Case Studies — Truth Software Portfolio</span>
-  <span id="i18nMetaEn" hidden>Truth Software portfolio: real screens from delivered mini-programs, apps, and web platforms \u2014 HomeNet, LawShare, Fenbi Word Master, Room Finder, JiMiao Community, WoWo Renovation, Tourism Big Data, and more.</span>
+  <span id="i18nTitleEn" hidden>Case Studies — TruthSoft Portfolio</span>
+  <span id="i18nMetaEn" hidden>TruthSoft portfolio: real screens from delivered mini-programs, apps, and web platforms \u2014 HomeNet, LawShare, Fenbi Word Master, Room Finder, JiMiao Community, WoWo Renovation, Tourism Big Data, and more.</span>
 
 {FOOTER.format(i18n="i18n.js", theme="theme.js")}"""
 

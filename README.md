@@ -1,4 +1,4 @@
-# 求真软件（Truth Software）— Portfolio Website
+# 求真软件（TruthSoft）— Portfolio Website
 
 A simple, dependency-free software consulting portfolio site. Single static page,
 no build step, ready to host on GitHub Pages or any static host.
@@ -28,7 +28,7 @@ campaigns, plus the company profile (~15-person team, 40+ historical projects).
 The site also presents the modern side of the company:
 
 - **AI Transformation Consultancy** (`#ai-transform`) — a business-first service: audit the current business (processes, data, systems, pain points), map where AI delivers real ROI, and deliver a phased adoption roadmap with cost/ROI modeling, team enablement, and governance — typically handing a current-state analysis to the client within 1–2 weeks, before any development.
-- **About / philosophy** (`#about`) — the Truth Software manifesto distilled
+- **About / philosophy** (`#about`) — the TruthSoft manifesto distilled
   into six principles: think clearly first, build for real users, respect what
   already exists, think in years, treat customers as collaborators, and make
   transparency part of the product.
