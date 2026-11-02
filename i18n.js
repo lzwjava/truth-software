@@ -1,5 +1,5 @@
 /* ==========================================================================
-   求真软件（Truth Software）— bilingual (zh / en) support
+   求真软件（TruthSoft）— bilingual (zh / en) support
    The page ships with Chinese as the source language. English strings live
    in the EN map below, keyed by the exact Chinese text found in index.html.
    Switching languages swaps text nodes and aria-labels in place; a user-set
@@ -14,8 +14,8 @@
 
   // ---- English dictionary: exact Chinese source text -> English ---------- //
   const EN = {
-    // Brand — 求真软件 is written as "Truth Software" in English
-    "求真软件": "Truth Software",
+    // Brand — 求真软件 is written as "TruthSoft" in English
+    "求真软件": "TruthSoft",
 
     // Navigation
     "服务": "Services",
@@ -29,7 +29,7 @@
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
     "按 token 计费，随时协作——": "Priced by the token, collaborating anytime —",
     "你的长期技术合伙人，陪你打磨求真产品": "your long-term technical partner, building truth-driven products with you.",
-    "求真软件是一支 AI 驱动的软件咨询团队：从产品设计到上线运营的整体方案，按 token 使用量计价，与客户一起追求产品工程上的真理。": "Truth Software is an AI-driven consulting team: end-to-end solutions from product design to launch, priced by token usage, pursuing the truth of product engineering with our customers.",
+    "求真软件是一支 AI 驱动的软件咨询团队：从产品设计到上线运营的整体方案，按 token 使用量计价，与客户一起追求产品工程上的真理。": "TruthSoft is an AI-driven consulting team: end-to-end solutions from product design to launch, priced by token usage, pursuing the truth of product engineering with our customers.",
     "小程序、iOS / Android、Web、H5 都有成熟交付经验；作为 AI 原生团队，为客户交付项目时，日均消耗 10 亿+ tokens。": "Proven delivery across mini-programs, iOS / Android, Web, and H5; as an AI-native team we consume 1B+ tokens a day when delivering for clients.",
     "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do.",
     "前身为平方根科技，2018–2019 年运营，2026 年重启。": "Formerly Square Root Technology, active 2018–2019 and relaunched in 2026.",
@@ -215,11 +215,11 @@
     "转型咨询可以先于任何开发启动：通常 1–2 周交付现状分析与试点建议。": "Consultancy can start before any development: we typically deliver a current-state analysis and pilot recommendations within 1–2 weeks.",
     "后续的 AI 应用开发、智能体与系统集成，由我们的「AI 服务」团队无缝承接。": "Follow-up application development, agents, and system integration are then handled seamlessly by our AI Services team.",
 
-    // Truth Software identity — About / manifesto section
+    // TruthSoft identity — About / manifesto section
     "关于": "About",
     "随时协作 · 做值得做的事 · 打持久战": "Collaborate as we go · Build what matters · Play the long game",
     "我们信奉什么": "What We Believe",
-    "求真软件不是「卖代码」或「卖 AI tokens」的公司。": "Truth Software is not a company that sells code or AI tokens.",
+    "求真软件不是「卖代码」或「卖 AI tokens」的公司。": "TruthSoft is not a company that sells code or AI tokens.",
     "我们追求对计算机科学、工程与业务的深入理解，": "We pursue a deep understanding of computer science, engineering, and business,",
     "构建值得存在的软件，服务真实的用户，并与愿意长期一起创造价值的人协作。": "build software that deserves to exist, serve real users, and collaborate with people who want to create real value over many years.",
     "求真 · 随时协作": "Truth First · Collaborate as We Go",
@@ -394,7 +394,7 @@
     "应用开发": "Development",
     "实验室": "Lab",
     "模型训练与推理 · AI 转型咨询 · AI 应用与智能体 · 一般应用开发": "Model Training & Inference · AI Transformation Consulting · AI Apps & Agents · General Development",
-    "求真软件是一家 AI 原生软件公司，四条业务线：模型训练与推理、AI 转型咨询、AI 应用与智能体开发、一般应用开发。": "Truth Software is an AI-native software company with four business lines: model training & inference, AI transformation consulting, AI application & agent development, and general application development.",
+    "求真软件是一家 AI 原生软件公司，四条业务线：模型训练与推理、AI 转型咨询、AI 应用与智能体开发、一般应用开发。": "TruthSoft is an AI-native software company with four business lines: model training & inference, AI transformation consulting, AI application & agent development, and general application development.",
     "从最底层的模型训练到最终用户的应用，全部按 token 使用量计价——每一笔费用都看得懂，每一项能力都有案例或实验可查。": "From low-level model training to end-user applications, everything is priced by token usage — every charge is clear, and every capability can be verified by a case study or experiment.",
     "四条业务线背后是同一个求真团队：一个人运营的实验室从零训练 GPT-2、部署开源模型、搭建 52 GB 二手 GPU 集群；一支 AI 原生团队把日均 10 亿+ tokens 用在每个交付项目上。40+ 交付项目，服务过猿题库、粉笔、江苏卫视，创始团队过往并有星展 DBS、汇丰 HSBC 金融项目经验。": "One truth-first team behind all four lines: a one-person lab that pretrains GPT-2s from scratch and serves open models on a 52 GB second-hand GPU cluster; an AI-native team spending 1B+ tokens a day on every engagement. 40+ projects delivered for Yuanfudao, Fenbi, and Jiangsu TV, plus DBS and HSBC banking experience from the founding team's past.",
     "四条业务线": "Four Business Lines",
@@ -498,11 +498,11 @@
     "组装 RTX 4070 工作站，完成 DeepLearning.AI 机器学习与深度学习专项，复现约 30 个 ML 项目，开始认真做微调与预训练。": "Assembled the RTX 4070 workstation, finished the DeepLearning.AI ML and DL specializations, re-implemented ~30 ML projects, and started fine-tuning and pretraining small models in earnest.",
     "银行 AI 工程实践（HSBC）": "AI engineering at a bank (HSBC)",
     "20 个定制 AI 智能体、400 个可复用脚本、1,800 篇文档；企业编程助手使用量前 6%；AIPlayer 贡献奖；80 人技术演讲。": "20 custom AI agents, 400 reusable scripts, 1,800 docs; top 6% in enterprise coding-assistant usage; AIPlayer Contribution Award; a technical talk for 80 people.",
-    "Truth Lab 与求真软件": "Truth Lab & Truth Software",
-    "训练 SEC-EDGAR-GPT、搭建 52 GB 二手 GPU 集群、消耗 10B token；重启求真软件四条业务线。": "Trained SEC-EDGAR-GPT, built a 52 GB second-hand GPU cluster, consumed 10B tokens; relaunched Truth Software with four business lines.",
+    "Truth Lab 与求真软件": "Truth Lab & TruthSoft",
+    "训练 SEC-EDGAR-GPT、搭建 52 GB 二手 GPU 集群、消耗 10B token；重启求真软件四条业务线。": "Trained SEC-EDGAR-GPT, built a 52 GB second-hand GPU cluster, consumed 10B tokens; relaunched TruthSoft with four business lines.",
 
     // ---- Footer ----
-    "求真软件 · 模型训练与推理 · AI 转型咨询 · AI 应用与智能体 · 一般应用开发": "Truth Software · Model Training & Inference · AI Transformation · AI Apps & Agents · General Development",
+    "求真软件 · 模型训练与推理 · AI 转型咨询 · AI 应用与智能体 · 一般应用开发": "TruthSoft · Model Training & Inference · AI Transformation · AI Apps & Agents · General Development",
 
     // ---- Works cards I (previously untranslated) ----
     "自研金融小模型：用 SEC EDGAR 年报（10-K）、季报（10-Q）与临时公告（8-K）语料，从零训练 GPT-2 124M 模型。": "Proprietary financial model trained from scratch on SEC EDGAR annual (10-K), quarterly (10-Q), and current (8-K) filings — a GPT-2 124M model.",
@@ -514,14 +514,14 @@
     "在线运营 funlive.io": "Live at funlive.io"
   };
 
-  const EN_TITLE = 'Truth Software — Model Training & Inference · AI Transformation · AI Apps & Agents · Development';
+  const EN_TITLE = 'TruthSoft — Model Training & Inference · AI Transformation · AI Apps & Agents · Development';
   // Pages may provide a page-specific English title / description via these
   // hidden elements (used by portfolio.html and cases/*.html).
   const TITLE_EN_EL = document.getElementById('i18nTitleEn');
   const META_EN_EL = document.getElementById('i18nMetaEn');
   const EN_META = META_EN_EL && META_EN_EL.textContent.trim()
     ? META_EN_EL.textContent.trim()
-    : 'Truth Software provides product design, iOS/Android app, WeChat mini-program, web and H5 development consulting. An AI-native team consuming 1B+ tokens per day; 40+ delivered projects for clients including YuantiKu, Fenbi, and Jiangsu TV, plus financial project experience with DBS and HSBC.';
+    : 'TruthSoft provides product design, iOS/Android app, WeChat mini-program, web and H5 development consulting. An AI-native team consuming 1B+ tokens per day; 40+ delivered projects for clients including YuantiKu, Fenbi, and Jiangsu TV, plus financial project experience with DBS and HSBC.';
 
   // Longest key first so full sentences win over short labels like 开发.
   const KEYS = Object.keys(EN).sort((a, b) => b.length - a.length);
