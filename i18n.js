@@ -236,6 +236,14 @@
     "清晰定价、可预期的成本、诚实的局限。靠真实价值赢得信任，而不是靠复杂性留住客户。": "Clear pricing, predictable costs, and honest limitations. We earn trust with real value, not by keeping customers dependent on complexity.",
     "AI 的目标是放大个人与小型团队的能力——把重复的工作交给模型与智能体，": "AI should expand what individuals and small teams can do — give repetitive work to models and agents,",
     "把人的时间留给理解问题、设计系统与创造有价值的产品。": "and give people their time back for understanding problems, designing systems, and creating valuable products.",
+    "公司哲学": "Our Company Philosophy",
+    "又快又好 —— 快，绝不牺牲质量": "Fast AND good — speed without sacrificing quality",
+    "快，是承诺": "Fast Is a Promise",
+    "小步快跑、以周为单位交付、当天开工，不让客户空等。": "Move in small steps, deliver weekly, start the same day — never leave a customer waiting.",
+    "好，是底线": "Good Is the Baseline",
+    "清晰的代码、可持续的架构，交付的每一版都经得起上线与时间的检验。": "Clean code and sustainable architecture — every release survives launch and time.",
+    "自动化与 AI 的杠杆": "Automation & AI Leverage",
+    "用自动化与 AI 的杠杆，让「快」与「好」同时成立。": "We use automation and AI leverage so that fast and good hold at the same time.",
 
     // Hero additions
     "软件开发 · 技术咨询 · AI 原生 · 产品外包": "Software Development · Technical Consulting · AI-Native · Product Outsourcing",

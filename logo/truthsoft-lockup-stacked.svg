@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 158" fill="none">
+  <g transform="translate(53,0)"><!-- Slight lean to the right, anchored at the base -->
+        <g transform="rotate(5, 27, 84)">
+
+          <!-- Base steps -->
+          <rect x="2"  y="82" width="50" height="6"  rx="1.5" fill="#6B4830"/>
+          <rect x="6"  y="77" width="42" height="6"  rx="1"   fill="#7C5840"/>
+
+          <!-- ── Tier 1 (ground floor) ── -->
+          <rect x="8"  y="64" width="38" height="14" rx="1.5" fill="#B8886A"/>
+          <!-- 4 arched windows -->
+          <rect x="11" y="66" width="5.5" height="9" rx="2.75" fill="#3D2010" opacity=".32"/>
+          <rect x="19" y="66" width="5.5" height="9" rx="2.75" fill="#3D2010" opacity=".32"/>
+          <rect x="27" y="66" width="5.5" height="9" rx="2.75" fill="#3D2010" opacity=".32"/>
+          <rect x="35" y="66" width="5.5" height="9" rx="2.75" fill="#3D2010" opacity=".32"/>
+          <!-- Cornice -->
+          <rect x="7"  y="62" width="40" height="3"  rx="1.5" fill="#7C5840"/>
+
+          <!-- ── Tier 2 ── -->
+          <rect x="9"  y="50" width="36" height="13" rx="1.5" fill="#C4986E"/>
+          <!-- 4 windows -->
+          <rect x="12" y="52" width="5"  height="8"  rx="2.5"  fill="#3D2010" opacity=".26"/>
+          <rect x="19.5" y="52" width="5" height="8" rx="2.5"  fill="#3D2010" opacity=".26"/>
+          <rect x="27" y="52" width="5"  height="8"  rx="2.5"  fill="#3D2010" opacity=".26"/>
+          <rect x="34.5" y="52" width="5" height="8" rx="2.5"  fill="#3D2010" opacity=".26"/>
+          <!-- Cornice -->
+          <rect x="8"  y="48" width="38" height="3"  rx="1.5" fill="#7C5840"/>
+
+          <!-- ── Tier 3 ── -->
+          <rect x="10" y="37" width="34" height="12" rx="1.5" fill="#CCA87E"/>
+          <!-- 3 windows -->
+          <rect x="13" y="39" width="6"  height="8"  rx="3"   fill="#3D2010" opacity=".22"/>
+          <rect x="23" y="39" width="6"  height="8"  rx="3"   fill="#3D2010" opacity=".22"/>
+          <rect x="33" y="39" width="6"  height="8"  rx="3"   fill="#3D2010" opacity=".22"/>
+          <!-- Cornice -->
+          <rect x="9"  y="35" width="36" height="3"  rx="1.5" fill="#7C5840"/>
+
+          <!-- ── Tier 4 ── -->
+          <rect x="12" y="24" width="30" height="12" rx="1.5" fill="#D4B890"/>
+          <!-- 3 windows -->
+          <rect x="15" y="26" width="5"  height="7"  rx="2.5"  fill="#3D2010" opacity=".18"/>
+          <rect x="24" y="26" width="5"  height="7"  rx="2.5"  fill="#3D2010" opacity=".18"/>
+          <rect x="33" y="26" width="5"  height="7"  rx="2.5"  fill="#3D2010" opacity=".18"/>
+          <!-- Cornice -->
+          <rect x="11" y="22" width="32" height="3"  rx="1.5" fill="#7C5840"/>
+
+          <!-- ── Belfry ── -->
+          <rect x="15" y="10" width="24" height="13" rx="2"   fill="#C09878"/>
+          <!-- 2 windows -->
+          <rect x="18" y="12" width="6.5" height="8" rx="3.25" fill="#3D2010" opacity=".28"/>
+          <rect x="29" y="12" width="6.5" height="8" rx="3.25" fill="#3D2010" opacity=".28"/>
+          <!-- Cornice -->
+          <rect x="14" y="8"  width="26" height="3"  rx="1.5" fill="#7C5840"/>
+
+          <!-- ── Top dome cap ── -->
+          <ellipse cx="27" cy="8" rx="13" ry="5.5" fill="#5C3820"/>
+          <ellipse cx="27" cy="6" rx="10" ry="3.5" fill="#6B4830"/>
+
+        </g></g>
+  <text x="85" y="122" text-anchor="middle" font-family="PlayfairDisplay-Bold" font-size="30" letter-spacing="0.6" fill="#2C1A0E">TruthSoft</text>
+  <text x="85" y="140" text-anchor="middle" font-family="Inter-Light,PingFang SC,Hiragino Sans GB,sans-serif" font-size="12" letter-spacing="3.12" fill="#8B6B50">求真软件</text>
+</svg>

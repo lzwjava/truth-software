@@ -79,10 +79,10 @@ body {
 }
 
 .nav__logo {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: var(--gradient);
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: url('logo/deepcompute-icon.png') no-repeat center / contain;
   display: inline-block;
 }
 
@@ -322,6 +322,50 @@ body {
 }
 
 .section--dark .section__note { color: rgba(255, 255, 255, 0.72); }
+
+/* ---------- Company philosophy band ---------- */
+
+.philosophy {
+  margin-top: 40px;
+  padding: 32px 36px;
+  text-align: center;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  background:
+    linear-gradient(var(--bg-alt), var(--bg-alt)) padding-box,
+    var(--gradient) border-box;
+  box-shadow: var(--shadow);
+}
+
+.philosophy__tag {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.philosophy__headline {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--ink);
+}
+
+.philosophy__desc {
+  margin: 14px auto 0;
+  max-width: 640px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--ink-soft);
+}
+
+.philosophy__cards {
+  margin-top: 26px;
+  text-align: left;
+}
 
 /* ---------- Grid & cards ---------- */
 
@@ -1182,6 +1226,8 @@ html[data-theme="dark"] .section--dark {
   .nav__links a:not(.nav__cta) { display: none; }
   .hero { padding-top: 64px; }
   .section { padding: 60px 0; }
+  .philosophy { padding: 24px 18px; }
+  .philosophy__headline { font-size: 22px; }
   .stack__row { grid-template-columns: 1fr; gap: 8px; }
   .footer__inner { flex-direction: column; text-align: center; }
 }
