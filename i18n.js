@@ -194,7 +194,7 @@
 
     // AI Transformation Consultancy (AI 转型咨询)
     "AI 转型咨询": "AI Transformation Consultancy",
-    "AI Transformation Consultancy · 先想清楚，再动手": "AI Transformation Consultancy · Think clearly, then act",
+    "AI Transformation Consultancy · 帮你想清楚，再动手": "AI Transformation Consultancy · We help you think clearly, then build",
     "不是先买模型、先写代码，而是先看懂你的业务：分析现状流程、数据、系统与痛点，": "We don't start by buying models or writing code — we start by understanding your business: analyzing your processes, data, systems, and pain points,",
     "找出 AI 真正能带来回报的场景，再沿着路线图一步步落地。": "to find where AI will actually pay off, then deliver it step by step along a clear roadmap.",
     "01 现状分析": "01 Current-State Analysis",
@@ -217,13 +217,13 @@
 
     // Truth Software identity — About / manifesto section
     "关于": "About",
-    "想清楚 · 做值得做的事 · 打持久战": "Think clearly · Build what matters · Play the long game",
+    "随时协作 · 做值得做的事 · 打持久战": "Collaborate as we go · Build what matters · Play the long game",
     "我们信奉什么": "What We Believe",
     "求真软件不是「卖代码」或「卖 AI tokens」的公司。": "Truth Software is not a company that sells code or AI tokens.",
     "我们追求对计算机科学、工程与业务的深入理解，": "We pursue a deep understanding of computer science, engineering, and business,",
     "构建值得存在的软件，服务真实的用户，并与愿意长期一起创造价值的人协作。": "build software that deserves to exist, serve real users, and collaborate with people who want to create real value over many years.",
-    "求真 · 想清楚再做": "Truth First · Think Clearly",
-    "用深入的理解取代模仿，用简单取代不必要的复杂。把问题想清楚，再动手构建。": "Replace imitation with deep understanding and unnecessary complexity with simplicity. Think clearly, then build.",
+    "求真 · 随时协作": "Truth First · Collaborate as We Go",
+    "不是先想清楚再动手的瀑布式，而是随时协作、按 token 计费、边探索求真、边完善想法的探索式。": "Not a think-first waterfall — an exploratory mode of working: we collaborate as we go, priced per token, seeking truth while refining the idea.",
     "为真实用户而建": "Build for Real Users",
     "先解决我们自己的问题，再把工具带给真实用户，从实际使用的反馈中不断改进，而不是把写代码等同于创造价值。": "We start by solving problems we have ourselves, bring the tools to real users, and keep improving them through actual use — never confusing writing code with creating value.",
     "尊重已有的成果": "Respect What Exists",
@@ -407,7 +407,7 @@
     "一般应用开发": "General Application Development",
     "iOS / Android 应用、微信小程序、Web 平台与后台系统、H5 营销与增长活动。": "iOS / Android apps, WeChat mini-programs, Web platforms & admin systems, and H5 marketing & growth campaigns.",
     "业务线 01": "Business Line 01",
-    "业务线 02 · 先想清楚，再动手": "Business Line 02 · Think clearly, then act",
+    "业务线 02 · 帮你想清楚，再动手": "Business Line 02 · We help you think clearly, then build",
     "业务线 03": "Business Line 03",
     "业务线 04": "Business Line 04",
     "从最底层做起：从零预训练小型大语言模型、微调与对齐、开源模型推理部署、GPU 算力与工作站。": "We start at the bottom: pretrain small LLMs from scratch, fine-tune and align, serve open models, and build GPU compute.",
