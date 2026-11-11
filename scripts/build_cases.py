@@ -212,7 +212,7 @@ NAV = """  <header class="nav">
     <div class="container nav__inner">
       <a href="{home}" class="nav__brand">
         <span class="nav__logo" aria-hidden="true"></span>
-        求真软件
+        求真AI
       </a>
       <nav class="nav__links" aria-label="主导航">
         <a href="{home}">首页</a>
@@ -226,7 +226,7 @@ NAV = """  <header class="nav">
 
 FOOTER = """  <footer class="footer">
     <div class="container footer__inner">
-      <p>© <span id="year">2026</span> 求真软件 · 软件开发与技术咨询</p>
+      <p>© <span id="year">2026</span> 求真AI · 软件开发与技术咨询</p>
     </div>
   </footer>
   <script>
@@ -283,7 +283,7 @@ def case_file(case, prev, nxt, portfolio_relative="../portfolio.html"):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{case["name"]} — 求真软件案例</title>
+  <title>{case["name"]} — 求真AI案例</title>
   <meta name="description" content="{case["desc"]}">
   <link rel="icon" href="../logo/favicon.ico" sizes="any">
   <link rel="icon" href="../logo/deepcompute-icon.png" type="image/png">
@@ -371,8 +371,8 @@ def portfolio_file():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>案例作品集 — 求真软件</title>
-  <meta name="description" content="求真软件案例作品集：小程序、App、Web 与 H5 项目真实界面截图，含 HomeNet、律享、粉笔万词王、寻厢记、几秒社区、喔喔选装、众誉旅游大数据等交付案例。">
+  <title>案例作品集 — 求真AI</title>
+  <meta name="description" content="求真AI案例作品集：小程序、App、Web 与 H5 项目真实界面截图，含 HomeNet、律享、粉笔万词王、寻厢记、几秒社区、喔喔选装、众誉旅游大数据等交付案例。">
   <link rel="icon" href="logo/favicon.ico" sizes="any">
   <link rel="icon" href="logo/deepcompute-icon.png" type="image/png">
   <link rel="apple-touch-icon" href="logo/apple-touch-icon.png">
@@ -439,8 +439,8 @@ def portfolio_file():
     }});
   </script>
 
-  <span id="i18nTitleEn" hidden>Case Studies — TruthSoft Portfolio</span>
-  <span id="i18nMetaEn" hidden>TruthSoft portfolio: real screens from delivered mini-programs, apps, and web platforms \u2014 HomeNet, LawShare, Fenbi Word Master, Room Finder, JiMiao Community, WoWo Renovation, Tourism Big Data, and more.</span>
+  <span id="i18nTitleEn" hidden>Case Studies — TruthAI Portfolio</span>
+  <span id="i18nMetaEn" hidden>TruthAI portfolio: real screens from delivered mini-programs, apps, and web platforms \u2014 HomeNet, LawShare, Fenbi Word Master, Room Finder, JiMiao Community, WoWo Renovation, Tourism Big Data, and more.</span>
 
 {FOOTER.format(i18n="i18n.js", theme="theme.js")}"""
 

@@ -1,2 +1,2 @@
-# TruthSoft (求真软件)
+# TruthAI (求真AI)
 

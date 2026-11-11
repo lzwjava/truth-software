@@ -58,6 +58,6 @@
           <ellipse cx="27" cy="6" rx="10" ry="3.5" fill="#6B4830"/>
 
         </g></g>
-  <text x="85" y="122" text-anchor="middle" font-family="PlayfairDisplay-Bold" font-size="30" letter-spacing="0.6" fill="#2C1A0E">TruthSoft</text>
-  <text x="85" y="140" text-anchor="middle" font-family="Inter-Light,PingFang SC,Hiragino Sans GB,sans-serif" font-size="12" letter-spacing="3.12" fill="#8B6B50">求真软件</text>
+  <text x="85" y="122" text-anchor="middle" font-family="PlayfairDisplay-Bold" font-size="30" letter-spacing="0.6" fill="#2C1A0E">TruthAI</text>
+  <text x="85" y="140" text-anchor="middle" font-family="Inter-Light,PingFang SC,Hiragino Sans GB,sans-serif" font-size="12" letter-spacing="3.12" fill="#8B6B50">求真AI</text>
 </svg>
