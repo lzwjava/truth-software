@@ -182,7 +182,7 @@
     "聊聊你的项目": "Let's Talk About Your Project",
     "无论是一个想法、一份需求文档，还是已有产品需要重构——欢迎联系，我们会在 1 个工作日内回复。": "Whether it is an idea, a requirements document, or an existing product that needs a rebuild — get in touch and we will reply within one business day.",
     "微信与 WhatsApp 使用同一手机号。": "WeChat and WhatsApp use the same phone number.",
-    "办公地点：广州市增城区中新镇风光路": "Office: Fengguang Road, Zhongxin Town, Zengcheng District, Guangzhou",
+    "办公地点：广州市增城区中新镇": "Office: Zhongxin Town, Zengcheng District, Guangzhou",
 
     // Footer
     "软件开发与技术咨询": "Software Development & Technical Consulting",
