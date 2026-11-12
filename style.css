@@ -594,8 +594,8 @@ html[lang="en"] .work__meta b::after { content: " "; }
 
 /* Founder story figure */
 .story-figure {
-  margin: 32px auto 0;
-  max-width: 420px;
+  margin: 24px auto 0;
+  max-width: 240px;
   text-align: center;
 }
 
