@@ -122,7 +122,8 @@
     "公众号内输入兑换码领取礼包，含个性化海报生成。": "Enter a redemption code in an Official Account to claim a gift, including personalized poster generation.",
 
     // Clients
-    "TRUSTED BY · 合作伙伴": "TRUSTED BY · Partners",
+    "TRUSTED BY · 客户们": "TRUSTED BY · Our Clients",
+    "客户们": "Clients",
     "合作伙伴": "Partners",
     "创始人曾任职的公司": "Companies the founder has worked at",
     "创始团队曾深度参与以下大型金融机构与科技公司的重要项目（含外派）：": "The founding team has deeply contributed to key projects (including on-site placements) at these major financial institutions and tech companies:",
