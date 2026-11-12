@@ -592,6 +592,28 @@ html[lang="en"] .work__meta b::after { content: " "; }
   background: #fff;
 }
 
+/* Founder story figure */
+.story-figure {
+  margin: 32px auto 0;
+  max-width: 420px;
+  text-align: center;
+}
+
+.story-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: #fff;
+}
+
+.story-figure figcaption {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
 /* ---------- Team ---------- */
 
 .person__avatar {
