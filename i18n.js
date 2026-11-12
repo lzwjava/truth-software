@@ -131,7 +131,7 @@
     "法本信息 Farben": "Farben Information",
     "博彦科技 Beyondsoft": "Beyondsoft",
     "创始人曾就读的院校": "Institutions the founder has studied at",
-    "创始团队的学术背景——计算机系统工程硕士、高等自学考试计算机应用专业，以及数字媒体艺术本科（辍学）。": "The founding team's academic background — an MSCSE, a self-taught Computer Application associate degree, and a Digital Media Arts bachelor's (dropped out).",
+    "创始团队的学术背景——计算机系统工程硕士（在读）、高等自学考试计算机应用专业（在读），以及数字媒体艺术本科（就读一年）。": "The founding team's academic background — an MSCSE (in progress), a self-taught Computer Application associate degree (in progress), and a Digital Media Arts bachelor's (studied for one year).",
     "加州科技大学 CSTU": "California Science and Technology University (CSTU)",
     "广东外语外贸大学": "Guangdong University of Foreign Studies",
     "北京林业大学": "Beijing Forestry University",
