@@ -140,6 +140,7 @@
     "这一路走来，靠的不是孤军奋战——以下每一份支持都被记在心里：": "This journey was never a one-man fight — every bit of the support below is remembered in our hearts:",
     "父母和家人": "Parents and family",
     "家人": "Family",
+    "家人和小孩": "Family and kids",
     "王垠": "Yin Wang",
     "趣直播用户主播们的反馈": "Feedback from Fun Live users and streamers",
     " 的用户主播们": "'s users and streamers",
