@@ -187,25 +187,30 @@
         <p class="section__note">这一路走来，靠的不是孤军奋战——以下每一份支持都被记在心里：</p>
         <div class="supports">
           <figure class="support">
-            <a class="support__logo" href="images/support/family.png" target="_blank" rel="noopener"><img src="images/support/family.png" alt="父母和家人" loading="lazy"></a>
+            <div class="support__logo support__logo--zoom" data-lightbox="images/support/family.png"><img src="images/support/family.png" alt="父母和家人" loading="lazy"></div>
             <figcaption>父母和家人</figcaption>
           </figure>
           <figure class="support">
-            <a class="support__logo" href="images/support/family2.jpg" target="_blank" rel="noopener"><img src="images/support/family2.jpg" alt="家人" loading="lazy"></a>
+            <div class="support__logo support__logo--zoom" data-lightbox="images/support/family2.jpg"><img src="images/support/family2.jpg" alt="家人" loading="lazy"></div>
             <figcaption>家人</figcaption>
           </figure>
           <figure class="support">
-            <a class="support__logo" href="https://www.yinwang.org" target="_blank" rel="noopener"><img src="images/support/yinwang2.png" alt="王垠" loading="lazy"></a>
+            <div class="support__logo support__logo--zoom" data-lightbox="images/support/yinwang2.png"><img src="images/support/yinwang2.png" alt="王垠" loading="lazy"></div>
             <figcaption><a href="https://www.yinwang.org" target="_blank" rel="noopener">王垠</a> · <a href="https://www.yinwang.org" target="_blank" rel="noopener">yinwang.org ↗</a></figcaption>
           </figure>
           <figure class="support">
-            <a class="support__logo" href="https://funlive.io" target="_blank" rel="noopener"><img src="images/support/user1.jpg" alt="趣直播用户主播们的反馈" loading="lazy"></a>
+            <div class="support__logo support__logo--zoom" data-lightbox="images/support/user1.jpg"><img src="images/support/user1.jpg" alt="趣直播用户主播们的反馈" loading="lazy"></div>
             <figcaption><a href="https://funlive.io" target="_blank" rel="noopener">funlive.io</a> 的用户主播们</figcaption>
           </figure>
           <figure class="support">
-            <a class="support__logo" href="images/support/wechat_friend.jpg" target="_blank" rel="noopener"><img src="images/support/wechat_friend.jpg" alt="社交网络上的朋友" loading="lazy"></a>
+            <div class="support__logo support__logo--zoom" data-lightbox="images/support/wechat_friend.jpg"><img src="images/support/wechat_friend.jpg" alt="社交网络上的朋友" loading="lazy"></div>
             <figcaption>社交网络上的朋友们</figcaption>
           </figure>
+        </div>
+
+        <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="查看大图" hidden>
+          <button class="lightbox__close" type="button" aria-label="关闭">✕</button>
+          <img class="lightbox__img" src="" alt="">
         </div>
       </div>
     </section>
@@ -1373,6 +1378,26 @@
     });
     // Footer: current year via JS
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Lightbox: click a support tile to view the full-size image
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox.querySelector('.lightbox__img');
+    document.querySelectorAll('[data-lightbox]').forEach(tile => {
+      tile.addEventListener('click', () => {
+        lightboxImg.src = tile.dataset.lightbox;
+        lightbox.hidden = false;
+        document.documentElement.classList.add('lightbox-open');
+      });
+    });
+    const closeLightbox = () => {
+      lightbox.hidden = true;
+      document.documentElement.classList.remove('lightbox-open');
+      lightboxImg.src = '';
+    };
+    lightbox.addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !lightbox.hidden) closeLightbox();
+    });
   </script>
   <script src="theme.js"></script>
   <script src="i18n.js"></script>
