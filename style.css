@@ -558,7 +558,11 @@ html[lang="en"] .work__meta b::after { content: " "; }
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
+
+a.partner__logo:hover { transform: scale(1.04); border-color: var(--accent); box-shadow: 0 10px 24px rgba(0,0,0,0.14); }
 
 .partner__logo img {
   max-width: 84%;
@@ -573,6 +577,12 @@ html[lang="en"] .work__meta b::after { content: " "; }
   color: var(--ink-soft);
   text-align: center;
 }
+
+.partner figcaption a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.partner figcaption a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 .clients {
   list-style: none;
