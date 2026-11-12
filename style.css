@@ -631,11 +631,20 @@ html[lang="en"] .work__meta b::after { content: " "; }
   object-fit: contain;
 }
 
+.support__logo { display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.support__logo:hover { border-color: var(--accent); }
+
 .support figcaption {
   font-size: 14px;
   color: var(--ink-soft);
   text-align: center;
 }
+
+.support figcaption a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.support figcaption a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* Founder story figure */
 .story-figure {
