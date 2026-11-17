@@ -279,7 +279,7 @@ def case_file(case, prev, nxt, portfolio_relative="../portfolio.html"):
         switch += f'<a class="case-switch case-switch--next" href="{nxt["slug"]}.html">{nxt["name"]} →</a>'
 
     return f"""<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -367,7 +367,7 @@ def portfolio_file():
     cards_html = "\n".join(cards)
 
     return f"""<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
