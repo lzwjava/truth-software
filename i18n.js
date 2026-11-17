@@ -3,8 +3,8 @@
    The page ships with Chinese as the source language. English strings live
    in the EN map below, keyed by the exact Chinese text found in index.html.
    Switching languages swaps text nodes and aria-labels in place; a user-set
-   choice is persisted in localStorage, while the browser default locale is
-   used otherwise and is never written to storage.
+   choice is persisted in localStorage, while English is the default language
+   otherwise and is never written to storage.
    ========================================================================== */
 
 (function () {
@@ -651,13 +651,11 @@
   }
 
   // Language selection: use the user's saved choice if they ever set one,
-  // otherwise fall back to the browser's default locale. The browser default
-  // is never written to localStorage — only an explicit user toggle persists.
+  // otherwise default to English. The browser default is never written to
+  // localStorage — only an explicit user toggle persists.
   let saved = null;
   try { saved = localStorage.getItem(STORAGE_KEY); } catch (e) { /* ignore */ }
-  const initial = saved === 'en' || saved === 'zh'
-    ? saved
-    : (navigator.language && navigator.language.toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en');
+  const initial = saved === 'en' || saved === 'zh' ? saved : 'en';
 
   applyLang(initial);
 
