@@ -350,6 +350,32 @@
     "测试与质量": "Testing & Quality",
     "运维与监控": "Ops & Monitoring",
 
+    // New tech stack rows (payments & WeChat)
+    "支付与平台": "Payments & Platforms",
+    "微信支付": "WeChat Pay",
+    "支付宝": "Alipay",
+    "微信与协作": "WeChat & Collaboration",
+    "微信开发者平台": "WeChat Developer Platform",
+    "企业微信平台": "WeCom (Enterprise WeChat)",
+    "微信开放平台": "WeChat Open Platform",
+    "微信小程序": "WeChat Mini Program",
+
+    // AI tools ecosystem section
+    "AI 工具生态": "AI Tools Ecosystem",
+    "以下 AI 工具与平台均为我们实际使用、实战过的：从对话助手、代码生成，到图像/视频与音频生成，覆盖海外与中国市场，另附开发者 API 入口。": "The tools and platforms below are ones we use hands-on every day: from AI chatbots, code generation, image/video and audio generation — covering global and China markets — plus developer APIs.",
+    "精选目录": "Curated directory",
+    "对话助手": "AI Chatbots",
+    "通义千问": "Qwen (Tongyi)",
+    "豆包": "Doubao",
+    "模型竞技场": "Model Leaderboards",
+    "代码生成": "Code Generation",
+    "图像/视频生成": "Image & Video Generation",
+    "音频生成": "Audio Generation",
+    "云 AI 平台": "Cloud AI Platforms",
+    "数据与开源社区": "Data & Open-Source Communities",
+    "香港可用 AI 工具": "AI Tools Available in Hong Kong",
+    "开发者 API": "Developer APIs",
+
     // Finance / banking section
     "金融与银行项目经验": "Financial & Banking Project Experience",
     "创始团队曾深度参与星展银行 DBS、汇丰银行 HSBC 的金融系统项目，熟悉银行级的质量、安全与合规要求。": "Our founding team has worked deeply on financial systems projects for DBS and HSBC, and understands bank-grade quality, security, and compliance requirements.",

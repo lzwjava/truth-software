@@ -847,6 +847,9 @@ html.lightbox-open, html.lightbox-open body { overflow: hidden; }
 }
 
 .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 13px;
   line-height: 1.5;
   padding: 5px 12px;
@@ -862,6 +865,27 @@ html.lightbox-open, html.lightbox-open body { overflow: hidden; }
   border-color: rgba(255, 255, 255, 0.14);
   color: rgba(255, 255, 255, 0.86);
 }
+
+.chip__logo {
+  width: 15px;
+  height: 15px;
+  flex: none;
+  border-radius: 3px;
+  object-fit: contain;
+}
+
+.chip--link {
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.chip--link:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.section--dark .chip--link:hover { box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35); }
 
 /* ---------- Tech stack ---------- */
 
