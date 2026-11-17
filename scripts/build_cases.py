@@ -15,6 +15,24 @@ import os
 # ---------------------------------------------------------------------------
 CASES = [
     dict(
+        slug="jekyll-ai-blog",
+        name="Jekyll AI 博客",
+        platform="web",
+        tags=["Web"],
+        role="自研 · 全栈",
+        timeline="持续迭代",
+        client=None,
+        sub="Web · AI 驱动的双语知识博客",
+        desc="以 AI 能力增强的 Jekyll 双语知识博客，聚合三万多篇文章与笔记：自动 AI 双语翻译、"
+             "TTS 语音朗读、MathJax 公式渲染、夜间模式、PDF/EPUB 导出与 RSS 订阅，"
+             "并通过 GitHub Actions 全自动构建与发布。",
+        desc_en="An AI-supercharged Jekyll bilingual knowledge blog aggregating 30,000+ posts and "
+                "notes: automatic AI translation, text-to-speech narration, MathJax rendering, night "
+                "mode, PDF/EPUB export, RSS feeds and fully automated builds via GitHub Actions.",
+        cover="AI 双语知识博客",
+        count=6,
+    ),
+    dict(
         slug="burning-brain",
         name="燃烧吧大脑",
         platform="miniapp",

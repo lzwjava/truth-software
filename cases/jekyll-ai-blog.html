@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jekyll AI 博客 — 求真AI案例</title>
+  <meta name="description" content="以 AI 能力增强的 Jekyll 双语知识博客，聚合三万多篇文章与笔记：自动 AI 双语翻译、TTS 语音朗读、MathJax 公式渲染、夜间模式、PDF/EPUB 导出与 RSS 订阅，并通过 GitHub Actions 全自动构建与发布。">
+  <link rel="icon" href="../logo/favicon.ico" sizes="any">
+  <link rel="icon" href="../logo/deepcompute-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="../logo/apple-touch-icon.png">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('truth-theme');
+        var dark = t === 'dark' || (t !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      } catch (e) { document.documentElement.dataset.theme = 'light'; }
+    })();
+  </script>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="../index.html" class="nav__brand">
+        <span class="nav__logo" aria-hidden="true"></span>
+        求真AI
+      </a>
+      <nav class="nav__links" aria-label="主导航">
+        <a href="../index.html">首页</a>
+        <a href="../portfolio.html">案例</a>
+        <a href="mailto:lzwjava@gmail.com" class="nav__cta">联系我们</a>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="切换深色模式">🌙</button>
+        <button id="langToggle" class="lang-toggle" type="button">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="case" id="top">
+    <div class="container">
+
+      <nav class="crumbs" aria-label="面包屑">
+        <a href="../index.html">首页</a><span>/</span><a href="../portfolio.html">案例</a><span>/</span><b>Jekyll AI 博客</b>
+      </nav>
+
+      <header class="case__head">
+        <div class="case__head-left">
+          <h1 class="case__title">Jekyll AI 博客</h1>
+          <p class="case__sub">Web · AI 驱动的双语知识博客</p>
+          <div class="case__tags"><span class="tag tag--web">Web</span></div>
+          <ul class="work__meta case__meta">
+<li><b>负责</b>自研 · 全栈</li>
+<li><b>历时</b>持续迭代</li>
+<li><b>平台</b>Web</li>
+          </ul>
+        </div>
+        <p class="case__desc">以 AI 能力增强的 Jekyll 双语知识博客，聚合三万多篇文章与笔记：自动 AI 双语翻译、TTS 语音朗读、MathJax 公式渲染、夜间模式、PDF/EPUB 导出与 RSS 订阅，并通过 GitHub Actions 全自动构建与发布。</p>
+      </header>
+
+      <section class="case__gallery">
+        <h2 class="case__gallery-title">界面预览</h2>
+        <div class="gallery">
+          <figure class="gallery__item"><img src="../images/jekyll-ai-blog/img-01.jpg" alt="Jekyll AI 博客 截图" loading="lazy"></figure>
+          <figure class="gallery__item"><img src="../images/jekyll-ai-blog/img-02.jpg" alt="Jekyll AI 博客 截图" loading="lazy"></figure>
+          <figure class="gallery__item"><img src="../images/jekyll-ai-blog/img-03.jpg" alt="Jekyll AI 博客 截图" loading="lazy"></figure>
+          <figure class="gallery__item"><img src="../images/jekyll-ai-blog/img-04.jpg" alt="Jekyll AI 博客 截图" loading="lazy"></figure>
+          <figure class="gallery__item"><img src="../images/jekyll-ai-blog/img-05.jpg" alt="Jekyll AI 博客 截图" loading="lazy"></figure>
+          <figure class="gallery__item"><img src="../images/jekyll-ai-blog/img-06.jpg" alt="Jekyll AI 博客 截图" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <nav class="case__switch" aria-label="上一个 / 下一个案例">
+<span class="case-switch__spacer"></span><a class="case-switch case-switch--next" href="burning-brain.html">燃烧吧大脑 →</a>
+      </nav>
+
+    </div>
+  </main>
+
+  <span id="i18nTitleEn" hidden>Jekyll AI 博客 — Case Study</span>
+  <span id="i18nMetaEn" hidden>An AI-supercharged Jekyll bilingual knowledge blog aggregating 30,000+ posts and notes: automatic AI translation, text-to-speech narration, MathJax rendering, night mode, PDF/EPUB export, RSS feeds and fully automated builds via GitHub Actions.</span>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> 求真AI · 软件开发与技术咨询</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="../theme.js"></script>
+  <script src="../i18n.js"></script>
+</body>
+</html>
