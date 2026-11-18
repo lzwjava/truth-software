@@ -198,6 +198,30 @@ body {
   margin-top: 6px;
 }
 
+.hero__pillars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  margin: 0 0 30px;
+  padding-top: 6px;
+}
+.pillar {
+  border-top: 3px solid var(--accent-3);
+  padding-top: 14px;
+}
+.pillar__title {
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  margin: 0 0 8px;
+}
+.pillar__desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
 .hero__actions {
   display: flex;
   gap: 14px;
@@ -450,10 +474,12 @@ body {
 
 @media (max-width: 900px) {
   .steps { grid-template-columns: repeat(2, 1fr); }
+  .hero__pillars { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 640px) {
   .steps { grid-template-columns: 1fr; }
+  .hero__pillars { grid-template-columns: 1fr; }
 }
 
 /* ---------- Works ---------- */

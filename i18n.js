@@ -29,6 +29,18 @@
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
     "可按token计费，随时协作——": "Pay per token, collaborate anytime —",
     "你的技术合伙人，一起打造产品，探索求真": "your technical partner — building products, exploring the truth together.",
+
+    // Rebrand — four pillars (Seek Truth · Train Models · Build Agents · Empower People)
+    "可按token计费，随时协作——你的技术合伙人，一起打造产品，探索求真。": "Pay per token, collaborate anytime — your technical partner — building products, exploring the truth together.",
+    "求真 · 训练模型 · 构建智能体 · 赋能于人": "Seek Truth · Train Models · Build Agents · Empower People",
+    "求真": "Seek Truth",
+    "训练模型": "Train Models",
+    "构建智能体": "Build Agents",
+    "赋能于人": "Empower People",
+    "我们的理念 —— 追求根本性的理解，质疑假设，发现真正可能做到的事。": "Our philosophy. Pursue fundamental understanding, question assumptions, and discover what is actually possible.",
+    "我们的技术根基 —— 开发、适配、改进人工智能。": "Our technical foundation. Develop, adapt, and improve artificial intelligence.",
+    "我们的手艺 —— 把智能转化为解决真实问题的实用、自主系统。": "Our craft. Turn intelligence into useful, autonomous systems that solve real problems.",
+    "我们的使命 —— 帮助个人与企业借助 AI 取得更大成就。": "Our purpose. Help individuals and businesses achieve more through AI.",
     "求真AI是一支 AI 驱动的软件咨询团队：从产品设计到上线运营的整体方案，按 token 使用量计价，与客户一起追求产品工程上的真理。": "TruthAI is an AI-driven consulting team: end-to-end solutions from product design to launch, priced by token usage, pursuing the truth of product engineering with our customers.",
     "小程序、iOS / Android、Web、H5 都有成熟交付经验；作为 AI 原生团队，为客户交付项目时，日均消耗 10 亿+ tokens。": "Proven delivery across mini-programs, iOS / Android, Web, and H5; as an AI-native team we consume 1B+ tokens a day when delivering for clients.",
     "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do. ",
