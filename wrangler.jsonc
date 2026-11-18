@@ -7,16 +7,10 @@
   // existing zone route (domain/* -> truth-software).
   "workers_dev": false,
   // Serve the static site straight from the repo root.
+  // Workers static assets do NOT support an "exclude" option (wrangler
+  // rejects it), so "dist/" is assembled in CI from only the public files
+  // (see .github/workflows/deploy.yml). Never deploy "dist/" itself.
   "assets": {
-    "directory": "./",
-    "exclude": [
-      ".git",
-      ".github",
-      "scripts",
-      "src",
-      "wrangler.jsonc",
-      "README.md",
-      ".nojekyll"
-    ]
+    "directory": "./dist"
   }
 }

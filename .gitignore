@@ -1,0 +1,3 @@
+# Assembled by CI before deploy (see .github/workflows/deploy.yml).
+# wrangler.jsonc points assets at ./dist; never commit it.
+/dist/

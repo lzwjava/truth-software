@@ -73,8 +73,20 @@ jobs:
           }
           echo "Cloudflare credentials OK."
 
+      - name: Assemble static assets into dist/
+        # Workers static assets have no "exclude" option, so deploy from a
+        # clean directory that contains only the public site files (no .git,
+        # .github, scripts/, src/, wrangler.jsonc, ...).
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          cp index.html portfolio.html style.css theme.js i18n.js ANNOUNCEMENT.md .nojekyll dist/
+          cp -R cases dist/
+          cp -R images dist/
+          cp -R logo dist/
+
       - name: Deploy to Cloudflare Workers
-        # wrangler.jsonc: name truth-software, assets ./ (static site at repo root).
+        # wrangler.jsonc: name truth-software, main src/index.js, assets ./dist.
         # The site is served by this Worker via the existing zone route, so
         # every push updates it.
         run: npx --yes wrangler deploy
