@@ -27,11 +27,11 @@
 
     // Hero
     "软件开发 · 技术咨询 · 产品外包": "Software Development · Technical Consulting · Product Outsourcing",
-    "按 token 计费或项目计费，随时协作——": "Priced per token or per project, collaborating anytime —",
+    "可按token计费，随时协作——": "Pay per token, collaborate anytime —",
     "你的技术合伙人，一起打造产品，探索求真": "your technical partner — building products, exploring the truth together.",
     "求真AI是一支 AI 驱动的软件咨询团队：从产品设计到上线运营的整体方案，按 token 使用量计价，与客户一起追求产品工程上的真理。": "TruthAI is an AI-driven consulting team: end-to-end solutions from product design to launch, priced by token usage, pursuing the truth of product engineering with our customers.",
     "小程序、iOS / Android、Web、H5 都有成熟交付经验；作为 AI 原生团队，为客户交付项目时，日均消耗 10 亿+ tokens。": "Proven delivery across mini-programs, iOS / Android, Web, and H5; as an AI-native team we consume 1B+ tokens a day when delivering for clients.",
-    "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do.",
+    "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do. ",
     "前身为平方根科技，2018–2019 年运营，2026 年重启。": "Formerly Square Root Technology, active 2018–2019 and relaunched in 2026.",
     "获取项目报价": "Get a Project Quote",
     "查看案例 ↓": "View Case Studies ↓",
@@ -285,7 +285,7 @@
     "把人的时间留给理解问题、设计系统与创造有价值的产品。": "and give people their time back for understanding problems, designing systems, and creating valuable products.",
     // Hero additions
     "软件开发 · 技术咨询 · AI 原生 · 产品外包": "Software Development · Technical Consulting · AI-Native · Product Outsourcing",
-    "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do.",
+    "我们遵循求真：先想明白问题，再如实说明能做到什么。": "We follow the truth: understand the problem first, then say honestly what we can do. ",
     "前身为平方根科技，2018–2019 年运营，2026 年重启。": "Formerly Square Root Technology, active 2018–2019 and relaunched in 2026.",
     "10 亿+": "1B+",
     "日均 AI tokens 消耗": "AI tokens consumed per day",
