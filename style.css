@@ -765,6 +765,25 @@ html.lightbox-open, html.lightbox-open body { overflow: hidden; }
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
 }
 
+.person__head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.person__head .person__avatar {
+  margin-bottom: 0;
+}
+
+.person__head .person__id h3 {
+  margin-bottom: 2px;
+}
+
+.person__head .person__id .person__role {
+  margin-bottom: 0 !important;
+}
+
 .person__role {
   color: var(--accent-2) !important;
   font-weight: 600;
