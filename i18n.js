@@ -195,7 +195,7 @@
     "Monash University 大二学生，参与团队 AI 研发与交付工作。": "A 2nd-year student at Monash University, contributing to the team's AI R&D and delivery work.",
     "李智维": "Li Zhiwei",
     "创始人 / CEO": "Founder / CEO",
-    "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，12 年行业经验。AI 实践：从零预训练 GPT-2、搭建 52 GB 二手 GPU 集群、完成 10B token 的 SEC-EDGAR-GPT 训练；在银行场景落地 20 个定制 AI 智能体（企业编程助手用量前 6%）。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; 12 years of industry experience. AI practice: pretrained GPT-2 from scratch, built a 52 GB used-GPU cluster, trained SEC-EDGAR-GPT on 10B tokens; shipped 20 custom AI agents in banking contexts (top 6% enterprise coding assistant usage).",
+    "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，12 年行业经验。AI 实践：从零预训练 GPT-2、搭建 52 GB 二手 GPU 集群、完成 10B token 的 SEC-EDGAR-GPT 训练。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; 12 years of industry experience. AI practice: pretrained GPT-2 from scratch, built a 52 GB used-GPU cluster, trained SEC-EDGAR-GPT on 10B tokens.",
     "小容": "Xiao Rong",
     "兼职团队": "Part-time Team",
     "来自国内大小厂等资深工程师": "Senior engineers from large & small firms across China",
