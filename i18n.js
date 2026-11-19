@@ -212,6 +212,10 @@
     "北京师范大学附属实验中学国际部高二学生，托福 108。研究兴趣：异构推理（heterogeneous inference）、低延迟 GEMM 内核与推理加速——做过 Qwen3.8-27B NVFP4 跨卡部署、Blackwell SM120 低延迟 GEMM、FreeToken 推理优化（单卡 17.8 → 36.7 tok/s）。": "A Grade 11 student in the International Division of the Experimental High School Attached to Beijing Normal University; TOEFL 108. Research interests: heterogeneous inference, low-latency GEMM kernels, and inference acceleration — worked on cross-card Qwen3.8-27B NVFP4 deployment, a Blackwell SM120 low-latency GEMM, and FreeToken inference optimization (17.8 → 36.7 tok/s on one card).",
     "个人主页": "Homepage",
     "采访（10 万+）": "Interview (100k+ reads)",
+    "Thomas Yeung": "Thomas Yeung",
+    "Axono 核心开发者": "Axono Core Developer",
+    "香港中学生，Axono（一个轻量级 AI 推理库）的核心开发者。曾参加 2024 年第六届 IKCEST“一带一路”国际大数据竞赛和第十届百度与西安交通大学大数据竞赛，在 1700 多支参赛队伍中排名第 17。拥有多年 AI 基础设施经验。": "A Hong Kong high-school student and the core developer of Axono, a lightweight AI inference library. Competed in the 6th IKCEST International Big Data Competition (2024) and the 10th Baidu & Xi'an Jiaotong University Big Data Competition, ranking 17th out of 1,700+ teams. Years of experience in AI infrastructure.",
+    "Axono（GitHub）": "Axono (GitHub)",
 
     // How we work
     "合作方式": "How We Work",
