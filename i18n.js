@@ -205,7 +205,7 @@
     "兼职团队": "Part-time Team",
     "来自国内大小厂等资深工程师": "Senior engineers from large & small firms across China",
     "按项目需要弹性加入的外部资深工程师网络：覆盖前后端、客户端、算法与设计，随时为交付团队扩容。": "An elastic network of senior engineers who join per project — covering front-end, back-end, mobile, algorithms and design to scale delivery teams on demand.",
-    "前端负责人": "Front-end Consultant",
+    "前端顾问": "Front-end Consultant",
     "负责前端架构与重点项目，服务小猿搜题、BitEDU 等客户；从事过 GIS 地图与互联网医疗等行业，10 年行业经验。": "Leads front-end architecture and key projects for clients such as Xiaoyuan Souti and BitEDU; has worked across industries including GIS mapping and internet healthcare; 10 years of industry experience.",
     "张睿修": "Zhang Ruixiu",
     "AI 研究实习生": "AI Research Intern",
