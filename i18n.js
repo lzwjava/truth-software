@@ -205,7 +205,7 @@
     "来自国内大小厂等资深工程师": "Senior engineers from large & small firms across China",
     "按项目需要弹性加入的外部资深工程师网络：覆盖前后端、客户端、算法与设计，随时为交付团队扩容。": "An elastic network of senior engineers who join per project — covering front-end, back-end, mobile, algorithms and design to scale delivery teams on demand.",
     "前端负责人": "Front-end Consultant",
-    "负责前端架构与重点项目，服务小猿搜题、BitEDU 等客户，4 年行业经验。": "Leads front-end architecture and key projects for clients such as Xiaoyuan Souti and BitEDU; 4 years of industry experience.",
+    "负责前端架构与重点项目，服务小猿搜题、BitEDU 等客户；从事过 GIS 地图与互联网医疗等行业，10 年行业经验。": "Leads front-end architecture and key projects for clients such as Xiaoyuan Souti and BitEDU; has worked across industries including GIS mapping and internet healthcare; 10 years of industry experience.",
     "张睿修": "Zhang Ruixiu",
     "AI 研究实习生": "AI Research Intern",
     "北京师范大学附属实验中学国际部高二学生，托福 108。研究兴趣：异构推理（heterogeneous inference）、低延迟 GEMM 内核与推理加速——做过 Qwen3.8-27B NVFP4 跨卡部署、Blackwell SM120 低延迟 GEMM、FreeToken 推理优化（单卡 17.8 → 36.7 tok/s）。": "A Grade 11 student in the International Division of the Experimental High School Attached to Beijing Normal University; TOEFL 108. Research interests: heterogeneous inference, low-latency GEMM kernels, and inference acceleration — worked on cross-card Qwen3.8-27B NVFP4 deployment, a Blackwell SM120 low-latency GEMM, and FreeToken inference optimization (17.8 → 36.7 tok/s on one card).",
