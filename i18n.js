@@ -188,16 +188,25 @@
 
     // Team
     "核心团队": "Core Team",
-    "团队当前 5 人（含实习生），过往平均 10 人：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "The team is currently 5 people (incl. intern), averaging 10 people in the past: front-end, back-end, iOS, Android, mini-program engineers, and UI/UX designers.",
+    "团队当前 6 人（含实习生），过往平均 10 人：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "The team is currently 6 people (incl. intern), averaging 10 people in the past: front-end, back-end, iOS, Android, mini-program engineers, and UI/UX designers.",
+    "大四实习生 · 江西应用科技学院": "4th-Year Intern · Jiangxi University of Applied Science",
+    "江西应用科技学院大四实习生，参与团队 AI 研发与交付工作。": "A 4th-year intern from Jiangxi University of Applied Science, contributing to the team's AI R&D and delivery work.",
+    "大二实习生 · Monash University": "2nd-Year Intern · Monash University",
+    "Monash University 大二学生，参与团队 AI 研发与交付工作。": "A 2nd-year student at Monash University, contributing to the team's AI R&D and delivery work.",
     "李智维": "Li Zhiwei",
     "创始人 / CEO": "Founder / CEO",
-    "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，重度 AI 原生实践者，12 年行业经验。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; heavy AI-native practitioner; 12 years of industry experience.",
+    "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，12 年行业经验。AI 实践：从零预训练 GPT-2、搭建 52 GB 二手 GPU 集群、完成 10B token 的 SEC-EDGAR-GPT 训练；在银行场景落地 20 个定制 AI 智能体（企业编程助手用量前 6%）。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; 12 years of industry experience. AI practice: pretrained GPT-2 from scratch, built a 52 GB used-GPU cluster, trained SEC-EDGAR-GPT on 10B tokens; shipped 20 custom AI agents in banking contexts (top 6% enterprise coding assistant usage).",
     "小容": "Xiao Rong",
     "兼职团队": "Part-time Team",
     "来自国内大小厂等资深工程师": "Senior engineers from large & small firms across China",
     "按项目需要弹性加入的外部资深工程师网络：覆盖前后端、客户端、算法与设计，随时为交付团队扩容。": "An elastic network of senior engineers who join per project — covering front-end, back-end, mobile, algorithms and design to scale delivery teams on demand.",
-    "前端负责人": "Front-end Lead",
+    "前端负责人": "Front-end Consultant",
     "负责前端架构与重点项目，服务小猿搜题、BitEDU 等客户，4 年行业经验。": "Leads front-end architecture and key projects for clients such as Xiaoyuan Souti and BitEDU; 4 years of industry experience.",
+    "张睿修": "Zhang Ruixiu",
+    "AI 研究实习生": "AI Research Intern",
+    "北京师范大学附属实验中学国际部高二学生，托福 108。研究兴趣：异构推理（heterogeneous inference）、低延迟 GEMM 内核与推理加速——做过 Qwen3.8-27B NVFP4 跨卡部署、Blackwell SM120 低延迟 GEMM、FreeToken 推理优化（单卡 17.8 → 36.7 tok/s）。": "A Grade 11 student in the International Division of the Experimental High School Attached to Beijing Normal University; TOEFL 108. Research interests: heterogeneous inference, low-latency GEMM kernels, and inference acceleration — worked on cross-card Qwen3.8-27B NVFP4 deployment, a Blackwell SM120 low-latency GEMM, and FreeToken inference optimization (17.8 → 36.7 tok/s on one card).",
+    "个人主页": "Homepage",
+    "采访（10 万+）": "Interview (100k+ reads)",
 
     // How we work
     "合作方式": "How We Work",
