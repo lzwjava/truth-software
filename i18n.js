@@ -49,7 +49,6 @@
     "查看案例 ↓": "View Case Studies ↓",
     "历史交付项目": "Projects Delivered",
     "人（含实习生）· 过往平均 10 人": "people (incl. intern) · past average 10",
-    "全平台覆盖 iOS / Android / Web / 小程序": "platforms covered: iOS / Android / Web / Mini Programs",
 
     // Services
     "我们能做什么": "What We Do",
