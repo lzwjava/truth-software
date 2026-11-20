@@ -199,7 +199,7 @@
     "曾在成都囤鼠科技有限公司任数据分析实习生（2025.10–2025.11）：Python 批量抓取清洗海外院校项目数据，编写可复跑的数据管道（checkpoint + 异常日志），结合 Excel 透视表与 SQL 核对交付；另有 TypeScript / RxJS、Kotlin / Jetpack Compose、Python 等项目实践。": "Data analysis intern at Chengdu Tunshu Technology (Oct–Nov 2025): scraped and cleaned overseas university program data with Python, built rerunnable data pipelines (checkpoints + error logs), and validated deliverables with Excel pivot tables and SQL. Additional project work in TypeScript / RxJS, Kotlin / Jetpack Compose, and Python.",
     "李智维": "Li Zhiwei",
     "创始人 / CEO": "Founder / CEO",
-    "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，12 年行业经验。AI 实践：从零预训练 GPT-2、搭建 52 GB 二手 GPU 集群、完成 10B token 的 SEC-EDGAR-GPT 训练。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; 12 years of industry experience. AI practice: pretrained GPT-2 from scratch, built a 52 GB used-GPU cluster, trained SEC-EDGAR-GPT on 10B tokens.",
+    "负责技术开发与架构、商务合作与重点项目管理。趣直播创始人，前 LeanCloud 工程师；曾参与星展银行 DBS、汇丰银行金融系统项目，12 年行业经验；雅思 6.5，阅读 8.5。AI 实践：从零预训练 GPT-2、搭建 52 GB 二手 GPU 集群、完成 10B token 的 SEC-EDGAR-GPT 训练。": "Leads technical development and architecture, business development, and key project management. Founder of QuZhibo; former LeanCloud engineer; worked on financial systems projects for DBS and HSBC; 12 years of industry experience; IELTS 6.5 with a Reading score of 8.5. AI practice: pretrained GPT-2 from scratch, built a 52 GB used-GPU cluster, trained SEC-EDGAR-GPT on 10B tokens.",
     "小容": "Xiao Rong",
     "兼职团队": "Part-time Team",
     "来自国内大小厂等资深工程师": "Senior engineers from large & small firms across China",
