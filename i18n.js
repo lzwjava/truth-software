@@ -188,7 +188,7 @@
 
     // Team
     "核心团队": "Core Team",
-    "团队当前 6 人（含实习生），过往平均 10 人：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "The team is currently 6 people (incl. intern), averaging 10 people in the past: front-end, back-end, iOS, Android, mini-program engineers, and UI/UX designers.",
+    "团队当前 4 人（含实习生），过往平均 10 人：前端、后端、iOS、Android、小程序工程师与 UI/UX 设计师。": "The team is currently 4 people (incl. intern), averaging 10 people in the past: front-end, back-end, iOS, Android, mini-program engineers, and UI/UX designers.",
     "大四实习生 · 江西应用科技学院": "4th-Year Intern · Jiangxi University of Applied Science",
     "大四实习生 · 江西应用科技学院 · 智能科学与技术": "4th-Year Intern · Jiangxi University of Applied Science · Intelligent Science & Technology",
     "2023.09–2027.06 就读于江西应用科技学院智能科学与技术专业（本科），主修 Python、数据结构、MySQL、机器学习、深度学习等课程。": "Studying Intelligent Science and Technology (Bachelor's) at Jiangxi University of Applied Science (Sep 2023 – Jun 2027), with coursework in Python, data structures, MySQL, machine learning, and deep learning.",
