@@ -403,6 +403,12 @@
     "数据与开源社区": "Data & Open-Source Communities",
     "香港可用 AI 工具": "AI Tools Available in Hong Kong",
     "开发者 API": "Developer APIs",
+    "机器学习框架": "Machine Learning Frameworks",
+    "硬件计算": "Hardware Compute",
+    "AI 推理与服务": "AI Inference & Serving",
+    "AI Agent / RAG 框架": "AI Agent / RAG Frameworks",
+    "向量数据库": "Vector Databases",
+    "MLOps 与基建": "MLOps & Infrastructure",
 
     // Finance / banking section
     "金融与银行项目经验": "Financial & Banking Project Experience",
@@ -611,7 +617,22 @@
     "趣直播": "Fun Live",
     "自研知识直播平台：从直播、连麦互动到回放订阅，创始团队自研并运营的全栈产品。": "A self-built knowledge live-broadcast platform — live streaming, interaction, and replay subscriptions, built and operated full-stack by the founding team.",
     "自研 · 全栈": "Solo · full-stack",
-    "在线运营 funlive.io": "Live at funlive.io"
+    "在线运营 funlive.io": "Live at funlive.io",
+
+    // ---- Works cards II (ZZ ML workshop, Jekyll AI blog, footer) ----
+    "ZZ ML 实验工坊": "ZZ ML Experiment Workshop",
+    "个人机器学习实验平台：从数据下载与 tokenize、LLM 预训练到 SFT 微调、GRPO 强化学习与本地推理——在 12 GB 单卡上以 4-bit QLoRA 让基础模型学会链式思考，并落地 RAG 知识库、图像/对话推理等完整工具链。": "Personal ML experimentation platform: data download and tokenization, LLM pretraining, SFT fine-tuning, GRPO reinforcement learning and local inference — 4-bit QLoRA on a single 12 GB card teaches a base model chain-of-thought, plus a full toolchain from RAG knowledge bases to image/chat inference.",
+    "自研 · 全栈 AI 工程": "Solo · full-stack AI engineering",
+    "GitHub 开源": "Open source on GitHub",
+    "在线 lzwjava.com": "Live at lzwjava.com",
+    "AI 增强的双语知识博客，聚合 3 万+ 文章与笔记：自动翻译、TTS 朗读、MathJax、PDF/EPUB 导出，GitHub Actions 全自动发布。": "An AI-enhanced bilingual knowledge blog aggregating 30,000+ articles and notes: automatic translation, TTS reading, MathJax, PDF/EPUB export — all published automatically via GitHub Actions.",
+    "广州智维深算信息技术有限公司": "Guangzhou Zhiwei Shensuan Information Technology Co., Ltd.",
+
+    // Works cards (portfolio + Jekyll AI blog case page)
+    "AI 双语知识博客": "AI Bilingual Knowledge Blog",
+    "Web · AI 驱动的双语知识博客": "Web · AI-powered bilingual knowledge blog",
+    "持续迭代": "Ongoing",
+    "以 AI 能力增强的 Jekyll 双语知识博客，聚合三万多篇文章与笔记：自动 AI 双语翻译、TTS 语音朗读、MathJax 公式渲染、夜间模式、PDF/EPUB 导出与 RSS 订阅，并通过 GitHub Actions 全自动构建与发布。": "A Jekyll bilingual knowledge blog enhanced with AI: 30,000+ aggregated articles and notes — automatic AI translation, TTS reading, MathJax rendering, dark mode, PDF/EPUB export and RSS, built and published fully automatically via GitHub Actions."
   };
 
   const EN_TITLE = 'TruthAI — Model Training & Inference · AI Transformation · AI Apps & Agents · Development';
