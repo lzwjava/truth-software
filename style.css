@@ -841,6 +841,10 @@ html.lightbox-open, html.lightbox-open body { overflow: hidden; }
 .footer__inner p { margin: 0; }
 .footer__company { opacity: 0.85; }
 
+/* Show only the company names that match the active language */
+html[lang="en"] .footer__company--zh { display: none; }
+html[lang^="zh"] .footer__company--en { display: none; }
+
 /* ---------- AI-native (dark band) ---------- */
 
 .section--dark {
